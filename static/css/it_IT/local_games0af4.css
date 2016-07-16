@@ -22,7 +22,7 @@
 
 /* WotLK - Background */
 .wrath .navigation .bar a { height: 83px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/nav-bar.gif);}
-.wrath .bg01 {top:0;height:493px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/bg-top.jpg) top center no-repeat;z-index:0 !important}
+.wrath .bg01 {top:0;height:493px; background:url(../../../static/images/lang/it-it/games/wrath/bg-top.jpg) top center no-repeat;z-index:0 !important}
 
 /* WotLK - contents */
 .wrath .top-buttons a.btn-buy {margin-top:14px;margin-left:73px}
