@@ -1,0 +1,508 @@
+@charset "utf-8";
+
+/* Videos */
+.v_archive_entry * { zoom:1; }
+
+.v_archive_entry .playlink:hover span { cursor: pointer;  background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/games/videos/video_play_t.png');  }
+.v_sort	.sortbox .center .contents a.sortlink .arrow { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subpagepath-arrows-blue.png');}
+.v_sort	.sortbox .center .contents a.sortlink:hover .arrow { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subpagepath-arrows-white.png'); }
+
+.v_title_bg #v_title .v_dl { width:200px; text-align:right; }
+
+/* General layout values */
+a {selector-dummy:expression(this.hideFocus=true)}
+.footer .footercontents {width:758px;}
+.ldrop {bottom:56px}
+.game-footer .ldrop {bottom:72px}
+.navigation .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/nav-bg.png');}
+.menucompany-about { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subnav-compaaany-about.png');}
+.menucompany-careers { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subnav-compaaany-careers.png');}
+.menucompany-events { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subnav-compaaany-events.png');}
+.menucompany-press 	{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subnav-compaaany-press.png');}
+.menucommunity-battlenet { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subnav-community-battlenet.png');}
+.menucommunity-insider { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subnav-community-insider.png');}
+.menucommunity-blizzcast { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subnav-community-blizzcast.png');}
+.menucommunity-contests { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subnav-community-contests.png');}
+.menucommunity-mobile { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/subnav-community-mobile.png');}
+.blizz_btn .btn_txt {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/subpages/contentslide-bgband.png'); cursor:pointer;}
+
+.shatter1 {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/subpages/shatter1.png');}
+
+#screenViewer .topLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/screenshot/lightbox-tl.png')}
+#screenViewer .topRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/screenshot/lightbox-tr.png')}
+#screenViewer .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/screenshot/lightbox-bl.png')}
+#screenViewer .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/screenshot/lightbox-br.png') }
+
+
+.cataclysm #screenViewer .topLeft {filter:none; background-image:url('http://eu.blizzard.com/static/_images/games/cataclysm/lightbox-tl.gif');}
+.cataclysm #screenViewer .topRight {filter:none; background-image:url('http://eu.blizzard.com/static/_images/games/cataclysm/lightbox-tr.gif');}
+.cataclysm #screenViewer .bottomLeft {filter:none; background-image:url('http://eu.blizzard.com/static/_images/games/cataclysm/lightbox-bl-s.gif');}
+.cataclysm #screenViewer .bottomRight {filter:none; background-image:url('http://eu.blizzard.com/static/_images/games/cataclysm/lightbox-br-s.gif');}
+
+
+.page-search {height:572px;}
+
+/* Landing pages styles */
+.standardbox .description { padding:0 15px 0 15px; margin:15px 0 15px 0}
+.recentrelease .standardbox .middlebar {padding-bottom:18px;}
+.recentrelease .standardbox .description {margin:15px 0 0 0}
+
+.standardbox .middlebar .backgroundtwo {padding-top:1px}
+.standardbox .topbar { overflow: hidden; }
+.standardbox .topbar .leftcorner { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/box-corner-topleft.png');}
+.standardbox .topbar .rightcorner { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/box-corner-topright.png');}
+.standardbox .topbar .middle .rightfade {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/box-top-right.png');}
+.standardbox .bottombar .leftcorner { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/box-corner-bottomleft.png');}
+.standardbox .bottombar .rightcorner { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/box-corner-bottomright.png');}
+.standardbox .bottombar .leftcorner, .standardbox .bottombar .rightcorner, .standardbox .bottombar .middle, .standardbox .bottombar .middle .backgroundtwo, .standardbox .bottombar .middle .backgroundthree, .standardbox .bottombar .middle .backgroundfour  {font-size:0}
+.standardbox .bottombar .middle .backgroundtwo, .standardbox .bottombar .middle .backgroundthree, .standardbox .bottombar .middle .backgroundfour {background-repeat: repeat-y;}
+.standardbox .shadowbar .shadow { width: 207px; height: 25px; background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/box-shadow.png');}
+
+
+.company-landing .links .standardbox .middlebar .backgroundfour .line div {height:0px;}
+
+/* GAME PAGES */
+.intro .flashcap { margin-left:0; }
+/* CONTENTS */
+.intro {height:488px;}
+.media {right:0px;}
+.features {height:350px}
+.features .menu li {line-height:0}
+.features .viewer li .board .screen {height:200px;}
+.features .viewer li .board .screenviewer {left:19px;}
+.features li .board .screentop {background:none !important; width:352px !important; left:0;}
+.features li .board .screen {background-position:0 0 !important; width:350px !important; left:0;}
+.features li .screenbottom {background:none !important; bottom:-2px; left:19px !important; width:354px !important;}
+.DownsCom {height:300px;z-index:2000}
+.divcenter {z-index:2000 !important}
+#blackout {  position:absolute !important; }
+.page-university blockquote div q {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/subpages/quotationmarks.png');}
+
+/* WotLK */
+/* WotLK - menu Navigator */
+.wrath .navigation .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/nav-bg.png');}
+/* WotLK - contents */
+.wrath .bg-flash {right:-21px;}
+.wrath .title {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/ttl-bullet.png');}
+.wrath .features .pcs-top {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/bg-features-top.png');}
+.wrath .features .pcs-bottom01 {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/bg-features-bottom01.png');}
+.wrath .features .pcs-bottom02 {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/bg-features-bottom02.png');}
+.wrath #fmenu-1.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/feature-over01.png');}
+.wrath #fmenu-2.view .pcs-over, .wrath #fmenu-3.view .pcs-over, .wrath #fmenu-4.view .pcs-over, .wrath #fmenu-5.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/feature-over02.png');}
+.wrath .DownsCom .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/bg-down-com.png');}
+.wrath .community .button .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/txtr-btn-community.png');}
+.wrath .information {z-index:2000}
+.wrath .backtogames .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/bg-btn-backto.png');}
+
+.wrath #screenViewer .topLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/lightbox-tl.png')}
+.wrath #screenViewer .topRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/lightbox-tr.png')}
+.wrath #screenViewer .bottomLeft { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/lightbox-bl-s.png') }
+.wrath #screenViewer .bottomRight { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/lightbox-br-s.png') }
+.wrath #screenViewer.viewerPaging .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/lightbox-bl.png') }
+.wrath #screenViewer.viewerPaging .bottomRight { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/lightbox-br.png') }
+.wrath #screenViewer .topDeco {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wrath/lightbox-tp.png')}
+
+
+/* World of WarCraft */
+
+/* World of WarCraft - menu Navigator */
+.wow .navigation .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/nav-bg.png');}
+/* World of WarCraft - contents */
+.wow #fmenu-1.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/feature-over01.png');}
+.wow #fmenu-2.view .pcs-over, .wow #fmenu-3.view .pcs-over, .wow #fmenu-4.view .pcs-over, .wow #fmenu-5.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/feature-over02.png');}
+.wow .downloads .wallpaper .framebg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/frame-wallpaper.png');}
+.wow .community .button .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/txtr-btn-community.png');}
+.wow .backtogames .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/bg-btn-backto.png');}
+
+.wow #screenViewer .topLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/lightbox-tl.png')}
+.wow #screenViewer .topRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/lightbox-tr.png')}
+.wow #screenViewer .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/lightbox-bl-s.png')}
+.wow #screenViewer .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/lightbox-br-s.png') }
+.wow #screenViewer.viewerPaging .bottomLeft { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/lightbox-bl.png')}
+.wow #screenViewer.viewerPaging .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/lightbox-br.png') }
+.wow #screenViewer .topDeco {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/lightbox-tp.png')}
+.wow #screenViewer .bottomDeco {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/wow/lightbox-tp.png')}
+
+
+
+
+/* BURNINGCRUSADE */
+
+/* BURNINGCRUSADE - menu Navigator */
+.burningcrusade .navigation .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/nav-bg.png');}
+
+/* BURNINGCRUSADE - contents */
+.burningcrusade .bg-flash {right:-132px}
+.burningcrusade .features .pcs-top {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/bg-features-top.png');}
+.burningcrusade .features .pcs-right {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/bg-features-right.png');}
+.burningcrusade #fmenu-1.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/feature-over01.png');}
+.burningcrusade #fmenu-2.view .pcs-over, .burningcrusade #fmenu-3.view .pcs-over, .burningcrusade #fmenu-4.view .pcs-over, .burningcrusade #fmenu-5.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/feature-over02.png');}
+.burningcrusade .community .button .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/txtr-btn-community.png');}
+.burningcrusade .information {z-index:2000}
+.burningcrusade .information .pcs02 {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/p-information-down.png');}
+.burningcrusade .backtogames .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/bg-btn-backto.png');}
+
+.burningcrusade #screenViewer .topLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/lightbox-tl.png')}
+.burningcrusade #screenViewer .topRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/lightbox-tr.png')}
+.burningcrusade #screenViewer .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/lightbox-bl-s.png')}
+.burningcrusade #screenViewer .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/lightbox-br-s.png') }
+.burningcrusade #screenViewer.viewerPaging .bottomLeft { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/lightbox-bl.png')}
+.burningcrusade #screenViewer.viewerPaging .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/burningcrusade/lightbox-br.png') }
+
+
+/* Diablo II */
+
+/* Diablo II - menu Navigator */
+.d2 .navigation .bg { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/nav-bg.png');}
+/* Diablo II - contents */
+.d2 .bg-flash {right:-86px}
+.d2 #fmenu-1.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/feature-over01.png');}
+.d2 #fmenu-2.view .pcs-over, .d2 #fmenu-3.view .pcs-over, .d2 #fmenu-4.view .pcs-over, .d2 #fmenu-5.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/feature-over02.png');}
+.d2 .DownsCom .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/bg-down-com.png');}
+.d2 .community .button .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/txtr-btn-community.png');}
+.d2 .backtogames .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/bg-btn-backto.png');}
+
+.d2 #screenViewer .topLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/lightbox-tl.png')}
+.d2 #screenViewer .topRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/lightbox-tr.png')}
+.d2 #screenViewer .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/lightbox-bl-s.png')}
+.d2 #screenViewer .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/lightbox-br-s.png') }
+.d2 #screenViewer.viewerPaging .bottomLeft { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/lightbox-bl.png')}
+.d2 #screenViewer.viewerPaging .bottomRight { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/lightbox-br.png') }
+.d2 #screenViewer .topDeco {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d2/lightbox-tp.png')}
+
+
+
+/* WarCraft III */
+
+/* WarCraft III - Background */
+.war3 .bgpcs {right:13px;background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/p-chain.png');}
+/* WarCraft III - menu Navigator */
+.war3 .navigation .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/nav-bg.png');}
+/* WarCraft III - contents */
+.war3 .bg-flash {right:-25px;}
+.war3 #fmenu-1.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/feature-over01.png');}
+.war3 #fmenu-2.view .pcs-over, .war3 #fmenu-3.view .pcs-over, .war3 #fmenu-4.view .pcs-over, .war3 #fmenu-5.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/feature-over02.png');}
+.war3 .DownsCom {z-index:1200}
+.war3 .DownsCom .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/bg-down-com.png');}
+.war3 .community .button .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/txtr-btn-community.png');}
+.war3 .expansion .pcs-top {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/p-expansion-up.png');}
+.war3 .expansion .pcs-bottom {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/p-expansion-down.png');}
+.war3 .expansion .pcs-left {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/p-expansion-left.png');}
+.war3 .expansion .pcs-right {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/p-expansion-right.png');}
+.war3 .information .pcs01 {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/p-information-down.png');}
+.war3 .backtogames .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/bg-btn-backto.png');}
+
+.war3 #screenViewer .topLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/lightbox-tl.png')}
+.war3 #screenViewer .topRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/lightbox-tr.png')}
+.war3 #screenViewer .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/lightbox-bl-s.png')}
+.war3 #screenViewer .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/lightbox-br-s.png') }
+.war3 #screenViewer.viewerPaging .bottomLeft { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/lightbox-bl.png')}
+.war3 #screenViewer.viewerPaging .bottomRight { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/war3/lightbox-br.png') }
+
+
+
+/* StarCraft */
+
+/* StarCraft - Background */
+.sc .pcs-light {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/bg-rightsection-light.png');}
+/* StarCraft - menu Navigator */
+.sc .navigation .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/nav-bg.png');}
+/* StarCraft - contents */
+.sc .bg-flash {right:9px;}
+.sc .trailers .mediabox {right:1px;}
+.sc .screenshots .mediabox {left:1px}
+.sc #fmenu-1.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/feature-over01.png');}
+.sc #fmenu-2.view .pcs-over, .sc #fmenu-3.view .pcs-over, .sc #fmenu-4.view .pcs-over, .sc #fmenu-5.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/feature-over02.png');}
+.sc .downloads .wallpaper .framebg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/frame-wallpaper.png');}
+.sc .expansion .pcs-right {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/bg-expansion-right.png');}
+.sc .backtogames .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/bg-btn-backto.png');}
+
+.sc #screenViewer .topLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/lightbox-tl.png')}
+.sc #screenViewer .topRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/lightbox-tr.png')}
+.sc #screenViewer .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/lightbox-bl-s.png')}
+.sc #screenViewer .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/lightbox-br-s.png') }
+.sc #screenViewer.viewerPaging .bottomLeft { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/lightbox-bl.png')}
+.sc #screenViewer.viewerPaging .bottomRight { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc/lightbox-br.png') }
+
+
+
+/* StarCraft II */
+
+/* StarCraft II - menu Navigator */
+.sc2 .navigation .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/nav-bg.png');}
+/* StarCraft II - contents */
+.sc2 .msg-launch-date {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/sc2/txt-launch-date.png');}
+.sc2 .features .pcs-left {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/p-bg-feature-left.png');}
+.sc2 #fmenu-1.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/feature-over01.png');}
+.sc2 #fmenu-2.view .pcs-over, .sc2 #fmenu-3.view .pcs-over, .sc2 #fmenu-4.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/feature-over02.png');}
+.sc2 .downloads .wallpaper .framebg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/frame-wallpaper.png');}
+.sc2 #screenViewer .rightBorder {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/games/sc2/lightbox-r.png');}
+.sc2 #screenViewer .leftBorder {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/games/sc2/lightbox-l.png');}
+.sc2 #screenViewer .topLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/lightbox-tl.png');}
+.sc2 #screenViewer .topRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/lightbox-tr.png');}
+.sc2 #screenViewer .bottomBorder {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/games/sc2/lightbox-b-s.png'); bottom:-14px;}
+.sc2 #screenViewer .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/lightbox-bl-s.png')}
+.sc2 #screenViewer .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/lightbox-br-s.png') }
+.sc2 #screenViewer.viewerPaging .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/lightbox-bl.png');}
+.sc2 #screenViewer.viewerPaging .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/sc2/lightbox-br.png');}
+.sc2 .backtogames {top:212px;}
+
+
+/* Cataclysm */
+/* Cataclysm - menu Navigator */
+.cataclysm .navigation .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/cataclysm/nav-bg.png');}
+/* Cataclysm - contents */
+.cataclysm .bg-flash {right:-21px;}
+.cataclysm .title {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/cataclysm/ttl-bullet.png');}
+.cataclysm .features .bg-top {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/cataclysm/bg-features-top.png');}
+.cataclysm .features .bg-right {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/cataclysm/bg-features-right.png');}
+.cataclysm .features .pcs-bottom01 {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/cataclysm/bg-features-bottom01.png');}
+.cataclysm #fmenu-1.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/cataclysm/feature-over01.png');}
+.cataclysm #fmenu-2.view .pcs-over, .cataclysm #fmenu-3.view .pcs-over, .cataclysm #fmenu-4.view .pcs-over, .cataclysm #fmenu-5.view .pcs-over {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/cataclysm/feature-over02.png');}
+.cataclysm .DownsCom .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/cataclysm/bg-down-com.png');}
+.cataclysm .community .button .bg {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/cataclysm/txtr-btn-community.png');}
+.cataclysm .information {top:66px;z-index:2000}
+.cataclysm .backtogames {top:161px;}
+
+/*d3*/
+.d3 .navigation .bg { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/nav-bg.png') }
+.d3 .intro .flashcap div { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/d3/ttl-header.png') }
+.d3 .trailers h2 { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/d3/ttl-video.png') }
+.d3 .screenshots h2 { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/d3/ttl-screenshots.png') }
+.d3 .small-screenshot-contaigner .wrapper { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/screenshot-frame-small.png') }
+.d3 .feature-1 h2 { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/d3/ttl-feature-1.png') }
+.d3 .feature-2 h2 { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/d3/ttl-feature-2.png') }
+.d3 .feature-3 h2 { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/d3/ttl-feature-3.png') }
+.d3 .feature-4 h2 { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/d3/ttl-feature-4.png') }
+.d3 .information h2 { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/d3/ttl-information.png') }
+.d3 .screenshots-frame { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/screenshot-frame.png') }
+.d3 .button-first,
+.d3 .button-second { background-image: url("http://eu.blizzard.com/static/_images/games/d3/btn-screenshot.gif")}
+.d3 .intro { height: 390px; }
+.d3 .trailers { height:300px }
+.d3 .screenshots h2 { left:-405px }
+.d3 .media { right:5px }
+.d3 .backtogames a { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/lang/en-us/games/d3/btn-backtogames.png')}
+.d3 #screenViewer .topLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/lightbox-tl.png')}
+.d3 #screenViewer .topRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/lightbox-tr.png')}
+.d3 #screenViewer .bottomLeft {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/lightbox-bl-s.png')}
+.d3 #screenViewer .bottomRight {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/lightbox-br-s.png') }
+.d3 #screenViewer.viewerPaging .bottomLeft { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/lightbox-bl.png')}
+.d3 #screenViewer.viewerPaging .bottomRight { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/lightbox-br.png') }
+.d3 .buy-game .bg { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/games/d3/bg-purchase.png') }
+
+
+/* game features */
+.features #wrath li .board .screen {border:2px solid #105584;}
+.features #wrath li .screenbottom {border-bottom:2px solid #105584; bottom:-2px; left:20px !important;}
+.features #burningcrusade li .board .screen {border:2px solid #4b4a03;}
+.features #burningcrusade li .screenbottom {border-bottom:2px solid #4b4a03; bottom:-2px;}
+.features #wow li .board .screen {border:2px solid #211c18;}
+.features #wow li .screenbottom {border-bottom:2px solid #211c18; bottom:-2px;}
+.features #war3 li .board .screen {border:2px solid #392408;}
+.features #war3 li .screenbottom {border-bottom:2px solid #392408; bottom:-2px;}
+.features #d2 li .board .screen {border:2px solid #302f29;}
+.features #d2 li .screenbottom {border-bottom:2px solid #302f29; bottom:-2px;}
+.features #sc li .board .screenviewer {left:10px;}
+.features #sc li .board .screen {border:2px solid #520000;}
+.features #sc li .screenbottom {border-bottom:2px solid #520000; bottom:-2px; left:11px !important;}
+.features #sc2 li .board .screen {border:2px solid #105584;}
+.features #sc2 li .screenbottom {border-bottom:2px solid #105584; bottom:-2px; left:6px !important;}
+.features #cataclysm li .board .screen {border:2px solid #3c150b; left:0;}
+.features #cataclysm li .screenbottom {border-bottom:2px solid #3c150b; bottom:-2px; }
+
+
+
+/* Subpages */
+.newsarchive .archive_nav a:hover {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/arrow-blueglow-small.png');}
+.archive_nav a { cursor:pointer; }
+.archive_nav .selected .leftcorner {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/box-corner-topleft.png');}
+.archive_nav a span, .archive_list a span { cursor:pointer; }
+#gallery_thumbs a {cursor:pointer;}
+#gallery_thumbs a:hover span {filter:alpha(opacity=20);}
+#gallery_thumbs a.selected span {filter:alpha(opacity=50);}
+
+.page-careers .jobscolumn {background:none;}
+
+.page-careers .column div li {margin-bottom:-20px;}
+.page-careers .column div li a span { background:url(http://eu.blizzard.com/static/_images/layout/arrow-blueglow-small.gif) #081923 100% 6px no-repeat; }
+
+.arrowsm {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/arrow_sm.png');}
+.subpagenav .middle .block1 { width:130px; margin:26px 0 0 10px; float: left;}
+.subpagenav .middle .block2 { width:150px; margin:26px 0 0 10; float: left;}
+.subpagenav .middle a.title { color:#82B8CB; top:15px; left: 20px; position: relative; display:block;}
+
+.bgband {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/black80.png');}
+
+.featured_list .selected, .featured_list a:hover {   background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/black50.png');}
+.featured_paging_viewall {margin:0 0 0 5px;}
+.featured_paging_wrap {margin-right:5px;}
+#featured_link { background:url(http://eu.blizzard.com/static/_images/pixel.gif); }
+
+.newsarchive .sliderbox {width:620px; height:auto; overflow:auto;}
+
+.page-pressreleases .sliderbox dl dd { background-image:none;  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/black50.png'); height:100%}
+
+.menucompany-about 				{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subnav-compaaany-about.png'); }
+.menucompany-careers 			{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subnav-compaaany-careers.png'); }
+.menucompany-events 			{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subnav-compaaany-events.png'); }
+.menucompany-press 				{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subnav-compaaany-press.png'); }
+.menucommunity-battlenet		{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subnav-community-battlenet.png'); }
+.menucommunity-insider 			{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subnav-community-insider.png'); }
+.menucommunity-blizzcast 		{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subnav-community-blizzcast.png'); }
+.menucommunity-contests 		{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subnav-community-contests.png'); }
+.menucommunity-mobile 			{ background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subnav-community-mobile.png'); }
+
+.page-press ul {overflow:hidden; list-style-type:none; margin:0 auto; padding:0; width:600px;}
+.legacybox li blockquote {zoom:1;}
+
+.page-pressreleases .sliderbox dt .topbar .leftcorner {position:absolute;left:-6px;top:0px;width:6px;height:44px;background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/box-corner-topleft.png');}
+.page-pressreleases .sliderbox dt .topbar .middle {margin:0 6px 0 6px;height:44px;background:url(http://eu.blizzard.com/static/_images/layout/box-top.jpg);}
+.page-pressreleases .sliderbox dt .topbar .rightcorner {position:absolute;left:605px;width:6px; height:44px; background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/box-corner-topright.png');float:right;}
+.page-pressreleases .sliderbox dt .topbar .middle .rightfade {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/box-top-right.png');}
+
+.v_close_btn {background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/close_colors.png')}
+.dl_break {clear:left}
+.v_dl .dl_size { margin-top:0 }
+
+
+
+/* Language dropdown */
+
+
+.footer .footercontents {width:758px;}
+.langbox { bottom:-27px; left:305px}
+.footer .footercontents .language .langarrow, .langbox .bottom .lang .currentlanguage .langarrow  { background: none;  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_images/layout/arrow_blue.png)');}
+.footer .footercontents .language:hover .langarrow, .langbox .bottom .lang .currentlanguage:hover .langarrow  { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/arrow_white.png');}
+.langbox .bottom .lang .currentlanguage .languageitem { display: inline-block; margin: 0 0 0 6px; padding: 4px 0 0 0; 	}
+.langbox .bottom .lang .currentlanguage .langarrow { margin-top:3px;	}
+.langbox .top { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/langbox-top.png'); }
+.langbox .middle .left { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/langbox-shadow-left.png'); }
+.langbox .middle .right { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/langbox-shadow-right.png'); }
+.langbox .bottom .left {background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/langbox-bottom-1.png'); }
+.langbox .bottom .right {background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/langbox-bottom-5.png');}
+.langbox .bottom .lang {background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/langbox-bottom-2.png'); }
+.langbox .bottom .middle { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/langbox-bottom-3.png');}
+.langbox .bottom .stretch { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/langbox-bottom-4.png');}
+
+.legacybox .game-tlv .legacyboxart {position:relative;top:0px;background-image:url(http://eu.blizzard.com/static/_images/games/legacy/box-lostvikings.gif);}
+.legacybox .game-rrr .legacyboxart {position:relative;top:0px;background-image:url(http://eu.blizzard.com/static/_images/games/legacy/box-rocknrollracing.gif);}
+.legacybox .game-bt .legacyboxart {position:relative;top:0px;background-image:url(http://eu.blizzard.com/static/_images/games/legacy/box-blackthorne.gif);}
+.legacybox .game-wc .legacyboxart {position:relative;top:0px;background-image:url(http://eu.blizzard.com/static/_images/games/legacy/box-warcraft.gif);}
+.legacybox .game-war2 .legacyboxart {position:relative;top:0px;background-image:url(http://eu.blizzard.com/static/_images/games/legacy/box-warcraft2.gif);}
+.legacybox .game-d1 .legacyboxart {position:relative;top:0px;background-image:url(http://eu.blizzard.com/static/_images/games/legacy/box-diablo.gif);}
+
+/*community/contest*/
+
+.submissionform .termstext input {top:23px;}
+.submissionform .form_fileselect input {margin-left:3px; border:1px}
+
+.holidaycard-image{ background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_images/community/contests/holidaycard/holidaycard.png)'); }
+
+/* Art Gallery */
+.blizzart-gallery .gallery-filter {width:256px;}
+.blizzart-gallery .gallery-filter .contents{width:232px;}
+.blizzart-gallery .gallery-filter #sort_opt {width:254px;}
+.blizzart-gallery .pictures .picture {margin:0 5px 10px 0 !important;}
+.blizzart-gallery .gallery-filter .filterbox .center .contents a.filter-selector .arrow {background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subpagepath-arrows-blue.png');}
+.blizzart-gallery .gallery-filter .filterbox .center .contents a.filter-selector:hover .arrow {background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/subpagepath-arrows-white.png');}
+.blizzart-gallery .pictures.small {width:904px;}
+.blizzart-gallery .pictures.medium {width:886px;}
+.blizzart-gallery .pictures.large {width:936px;}
+.blizzart-gallery .pictures.small .picture a:hover div {background:none !important; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/ss_zoom_t170x100.png');}
+.blizzart-gallery .pictures.medium .picture a:hover div {background:none !important; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/ss_zoom_t210x140.png');}
+.blizzart-gallery .pictures.large .picture a:hover div {background:none !important; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/layout/ss_zoom_t300x210.png');}
+
+/* jobs directory */
+#careers-wrapper .careers-content {padding-left:0px;}
+#careers-wrapper #careers-search .sort div.sort-wrap ul#sort-menu {}
+#careers-wrapper #careers-search .sort span.text {margin-left:5px;}
+#careers-wrapper #careers-search .sort {height:62px;overflow:hidden;}
+#job-contents a.back-button span{background:url('http://eu.blizzard.com/static/_images/company/careers/button-back-arrow.gif') 15px 16px no-repeat}
+#careers-wrapper #careers-search .sort div.highlight-wrap {overflow:hidden;width:250px;}
+#careers-wrapper #careers-search .sort div.highlight-wrap .arrows {right:48px;}
+#careers-wrapper #careers-search .sort .clear-keyword {position:absolute;}
+#careers-wrapper #careers-search .sort .clear-highlight {margin-right:0px;}
+.job-random div.job-random-list {background-image:none !important;background-color:#002e48 !important;}
+
+/* Midnight Openings SCII */
+.page-midnightopenings h2 { color:#00A2F1; font:22px 'Century Gothic', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Verdana, Arial, Helvetica, sans-serif; letter-spacing:-1px; margin:0px 0 10px; display:block; /*color:#77cff1;*/ }
+.countdown_day{ margin: 0 0 0 37px; }
+/* Cataclysm Openings */
+ul.sidebar-menu a.has-submenu span { background: url(http://eu.blizzard.com/static/_images/company/events/ctmidnightopenings/sidebar-menu-arrows.gif) no-repeat 155px 9px; }
+ul.sidebar-menu a.has-submenu:hover span { background: url(http://eu.blizzard.com/static/_images/company/events/ctmidnightopenings/sidebar-menu-arrows.gif) no-repeat 155px -41px; }
+ul.sidebar-menu a.back-to span { background: url(http://eu.blizzard.com/static/_images/company/events/ctmidnightopenings/sidebar-menu-arrows.gif) no-repeat -3px -90px; }
+ul.sidebar-menu a.back-to:hover span { background: url(http://eu.blizzard.com/static/_images/company/events/ctmidnightopenings/sidebar-menu-arrows.gif) no-repeat -4px -140px; }
+ul.sidebar-menu a.disabled span { background: url(http://eu.blizzard.com/static/_images/company/events/ctmidnightopenings/sidebar-menu-arrows.gif) no-repeat 155px -192px; }
+ul.sidebar-menu a.disabled:hover span { background: url(http://eu.blizzard.com/static/_images/company/events/ctmidnightopenings/sidebar-menu-arrows.gif) no-repeat 155px -192px; }
+.cataclysm-mo .city-select-wrapper { background: url(http://eu.blizzard.com/static/_images/company/events/ctmidnightopenings/cataclysm-opening-navbox_short.gif) no-repeat 0 0; height: 400px; }
+.cataclysm-mo .column-right { background:none; }
+.cataclysm-mo .retailer-box { background-color: #06141d; padding: 20px; }
+.cataclysm-mo .partners div { width: 80px;  float: left;}
+
+
+/* Blizzard 20th Anniversary */
+.b20-photo-gallery .photo-gallery-block .wrapper {background:none; padding-bottom:0;}
+.b20-contest .contestant-video-frame { background:none }
+
+/* motion-overdrive */
+.overdrive-title { background-image:url('http://eu.blizzard.com/static/_images/games/motion-overdrive/header-title-en-us.gif');}
+.overdrive-content .kinect { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/games/motion-overdrive/kinect.png');}
+
+.page-university .gen_blue_btn.university { margin-left:5%; }
+.page-university .gen_blue_btn.university a { line-height:20px; top:1px; height:45px }
+
+/*charity auction*/
+.charity-auction .blade-pic { width:620px; }
+
+/*retire mobile*/
+.mobile-wrapper .title p { position:relative; top:25px; }
+.mobile-wrapper .right { background:none !important; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/static/_images/mobile/bg-right.png'); }
+
+/* age gate for d3 */
+.d3 #viewerContent #d3-age-gate-form { background:#000 }
+
+/* B20 Timeline */
+.timeline-wrapper .section .section-img { display:inline-block; position:relative;}
+.timeline-wrapper #section-1991 .section-img { position:absolute; margin-left:-425px ; margin-top:15px; }
+
+.timeline-wrapper .timeline-bar {float:left;height:13700px;}
+.timeline-wrapper .timeline-nav-bar {float:right; margin-left:0; margin-right:10px;}
+.timeline-wrapper .timeline-event-wrapper .event-box .header  { margin:0; padding-top:0px;}
+.timeline-wrapper .timeline-event-wrapper .bar { background: url('http://eu.blizzard.com/static/_images/company/about/b20/timeline/event-box-bars.gif') no-repeat; }
+.timeline-wrapper .timeline-event-wrapper .event-box .top { background: url('http://eu.blizzard.com/static/_images/company/about/b20/timeline/event-box-top.gif') no-repeat; }
+.timeline-wrapper .timeline-event-wrapper .event-box .bottom { background: url('http://eu.blizzard.com/static/_images/company/about/b20/timeline/event-box-bottom.gif') no-repeat; }
+.timeline-wrapper .timeline-event-wrapper .event-box .header,
+.timeline-wrapper .timeline-event-wrapper .event-box .text,
+.timeline-wrapper .timeline-event-wrapper .event-box .image { background: url('http://eu.blizzard.com/static/_images/company/about/b20/timeline/event-box-mid.gif') repeat-y; }
+.timeline-wrapper .timeline-bar .bar.top { background: url('http://eu.blizzard.com/static/_images/company/about/b20/timeline/timeline-bar-top.gif') no-repeat; }
+.timeline-wrapper .timeline-bar .bar.bottom { background: url('http://eu.blizzard.com/static/_images/company/about/b20/timeline/timeline-bar-bottom.gif') no-repeat; }
+.timeline-wrapper .timeline-bar .repeat { background: url('http://eu.blizzard.com/static/_images/company/about/b20/timeline/timeline-bar-repeat.gif') repeat-y; }
+
+/* University Relations */
+.page-university .internship-new-internship-button { _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://eu.blizzard.com/static/_images/lang/en-us/university-relation-internship.png', sizingMethod='crop'); }
+.page-university .internship-new-graduating-button { _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://eu.blizzard.com/static/_images/lang/en-us/university-relation-fulltime.png', sizingMethod='crop'); }
+.page-university .internship-new-contest-button { _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://eu.blizzard.com/static/_images/lang/en-us/university-relation-contest.png', sizingMethod='crop'); }
+.page-university .internship-new-qna-button { _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://eu.blizzard.com/static/_images/lang/en-us/university-relation-qna.png', sizingMethod='crop'); }
+
+/* University Relations - Internships */
+.page-university .internship-detail-box { _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://eu.blizzard.com/static/_images/lang/en-us/internship-button-bg.png', sizingMethod='crop'); }
+
+/* University Relations - Graduating Students */
+.page-university .internship-graduating-hat { _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://eu.blizzard.com/static/_images/lang/en-us/internship-hat.png', sizingMethod='crop'); }
+.page-university .internship-graduating-book {  _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://eu.blizzard.com/static/_images/lang/en-us/internship-books.png', sizingMethod='crop'); }
+
+/* University Relations - Student art contest */
+#sP-container { position: absolute; }
+#sP-container .sP-backdrop { background: #000; }
+#sP-container .sP-image { position: absolute; z-index: 1002; }
+#sP-container .sP-border.border-top,
+#sP-container .sP-border.border-bottom { position: absolute; z-index: 1000; }
+
+/* Hots Launch event */
+.hots-launch .cities-wrapper .column-right { float: left; }
+.hots-launch .cities-wrapper .column-left { position: relative }
+.hots-launch .menu-main-events { left: 0; }
+.hots-launch .menu-other-events { left: 0; }
+.hots-launch .retail-partner img { width: 180px; }
+.hots-launch .titlecontents { width: 720px; display: block; }

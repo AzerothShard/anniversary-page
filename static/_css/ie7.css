@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* General layout values */	
+a {selector-dummy:expression(this.hideFocus=true)} 
+.footer .footercontents {width:764px;}
+
+/* Games pages */
+.divcenter { z-index:2000 !important }
+
+.viewerFrame { z-index:2000 !important }
+.wrath .information .pcs01 {display:none}
+.burningcrusade .information .pcs01 {display:none}
+.burningcrusade .information{top:60px}
+.sc .trailers .mediabox {right:-6px;}
+.DownsCom {z-index:2000}
+.expansion { z-index:2001}
+.wrath .information, .burningcrusade .information {z-index:2000}
+
+#featured_link { background:url(http://eu.blizzard.com/static/_images/pixel.gif); }
+
+.h1sub { margin-top:-4px; }
+.playerimg { margin-top:-35px; }
+
+.subscribe a:hover { background-position:60% 10px;}
+.subscribe a img { margin:0; margin-bottom:10px; padding-right:15px;    }
+
+.submissionform .termstext input {top:23px;}
+
+.archive_nav a span, .archive_list a span { cursor:pointer; }
+
+#gallery_thumbs a:hover span {filter:alpha(opacity=20);}
+#gallery_thumbs a.selected span {filter:alpha(opacity=50);}
+
+#openingcountdown{ top: 245px; }
+
+#cest{ top: 342px; margin-left: 705px; }
+
+.page-university .gen_blue_btn.university a { top:8px; height:45px }
+
+
+/* Music section landing page */
+.music_page .soundtrack-list #soundtrackList .track-note a {top:9px;}
+.music_page .soundtrack-list #soundtrackList .track-list .buy-itunes {padding-top:5px;}
+
+/* Language dropdown */
+.langbox { bottom:-28px; left:308px}
+
+/* B20 Timeline */
+.timeline-wrapper .section .section-img { display:inline-block; position:relative; }
+.timeline-wrapper #section-1991 .section-img { position:absolute; margin-left:-425px ; margin-top:15px; }
+.timeline-wrapper .timeline-bar { float:left; }
+.timeline-wrapper .timeline-nav-bar { position:relative; float:right; margin-left:35px; margin-right:40px; top:0; }
+
+/* HotS Launch Event */
+.hots-launch .menu-main-events { left: 0px; }
+.hots-launch .menu-other-events { left: 0px; }
+.hots-launch .titlecontents { width: 720px; display: block; }

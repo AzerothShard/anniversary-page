@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/* Games pages */
+body a:hover, body a:hover span {cursor:pointer;}
+.flashtextcontainer { height:auto; }
+
+.langbox { bottom:auto;  margin-top:-199px; zoom:1; }
+.langbox .bottom .lang .currentlanguage .langarrow {margin-top:2px;}

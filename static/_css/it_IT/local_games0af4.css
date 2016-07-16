@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+
+/*	CSS Document - Blizzard Entertainment 2009  */
+
+/* WotLK */
+
+/* Games */
+.information .logo-rating {position:absolute;top:64px;right:58px;display:block;background:url(http://eu.blizzard.com/static/_images/layout/pegi12.png) no-repeat top center; width:60px;height:79px}
+.intro .flashcap {width:67px;}
+
+/* Games logo of rating */
+.d2 .information .logo-rating {top:68px;right:38px !important;background:url('http://eu.blizzard.com/static/_images/lang/it-it/games/rating_d2.png') no-repeat top center !important; width:115px;height:64px;}
+.sc .information .logo-rating {top:68px;right:38px !important;background:url('http://eu.blizzard.com/static/_images/lang/it-it/games/rating_sc.png') no-repeat top center !important; width:115px;height:64px;}
+.wow .information .logo-rating {top:68px;right:38px !important;background:url('http://eu.blizzard.com/static/_images/lang/it-it/games/rating_wow.png') no-repeat top center !important; width:115px;height:64px;}
+.war3 .information .logo-rating {top:68px;right:38px !important;background:url('http://eu.blizzard.com/static/_images/lang/it-it/games/rating_w3.png') no-repeat top center !important; width:115px;height:64px;}
+.wrath .information .logo-rating {top:75px;right:10px !important;background:url('http://eu.blizzard.com/static/_images/lang/it-it/games/rating_wrath.png') no-repeat top center !important; width:167px;height:44px;}
+.burningcrusade .logo-rating {top:75px;right:25px !important;background:url('http://eu.blizzard.com/static/_images/lang/it-it/games/rating_bc.png') no-repeat top center !important; width:137px;height:48px}
+.cataclysm .information .logo-rating {top:75px;right:10px !important;background:url('http://eu.blizzard.com/static/_images/lang/fr-fr/games/rating_cataclysm.gif') no-repeat top center !important; width:167px;height:44px;}
+.d3 .information .logo-rating {top:70px; right:103px; !important;background:url('http://eu.blizzard.com/static/_images/lang/it-it/games/rating_d3.png') no-repeat top center !important; width:156px;height:52px;}
+
+
+/* WotLK - Background */
+.wrath .navigation .bar a { height: 83px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/nav-bar.gif);}
+.wrath .bg01 {top:0;height:493px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/bg-top.jpg) top center no-repeat;z-index:0 !important}
+
+/* WotLK - contents */
+.wrath .top-buttons a.btn-buy {margin-top:14px;margin-left:73px}
+.wrath .top-buttons a.btn-try {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/btn-tryfree01.gif) no-repeat; }
+.wrath .intro h2 {top:35px;left:41px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/ttl-header.png) no-repeat; }
+.wrath .intro div.cap div {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/txt-I.png) no-repeat; width:53px;height:45px;}
+.wrath .trailers h2 {top:14px;left:1px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/ttl-trailer.png) no-repeat; width:87px;height:34px}
+.wrath .screenshots h2 {top:2px;left:5px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/ttl-screenshot.png) no-repeat; width:123px;height:36px}
+.wrath .features h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/ttl-feature.png) no-repeat; width:190px;height:33px;}
+.wrath .downloads h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/ttl-downloads.png) no-repeat; width:146px;height:29px;}
+.wrath .community h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/ttl-community.png) no-repeat; width:152px;height:42px;}
+.wrath .community .button a {top:-25px;left:8px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/btn-community.gif) no-repeat;width:257px;height:40px;}
+.wrath .information h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/ttl_info.png) no-repeat; width:238px;height:14px;}
+.wrath .information .btn-try {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/btn-tryfree.gif) no-repeat; width:87px;height:27px;}
+.wrath .information .btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/btn-buynow.gif) no-repeat;width:87px;height:27px;}
+.wrath .information .btn-boxview {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/btn-productview.jpg) no-repeat;}
+.wrath .backtogames a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wrath/btn-backtogames.gif) no-repeat;}
+
+
+
+
+/* World of WarCraft */
+
+/* World of WarCraft - menu Navigator */
+.wow .navigation .bar a { height: 83px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/nav-bar.gif);}
+
+.wow .bg01 {top:0;height:493px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/bg-top.jpg) top center no-repeat;}
+/* World of WarCraft - contents */
+.wow .top-buttons a.btn-buy {margin-top:14px;margin-left:73px;}
+.wow .top-buttons a.btn-try {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/btn-tryfree01.gif) no-repeat; width:251px;height:58px;}
+.wow .intro h2 {top:35px;left:32px;width:100%;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/ttl-header.png) no-repeat;}
+.wow .intro div.cap div {top:7px;left:3px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/txt-E.gif) no-repeat; width:35px;height:35px;}
+.wow .intro .flashcap {width:53px;}
+.wow .trailers h2 {top:3px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/ttl-trailer.png) no-repeat; width:87px;height:34px}
+.wow .screenshots h2 {top:2px;left:2px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/ttl-screenshot.png) no-repeat; width:123px;height:36px}
+.wow .features h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/ttl-feature.png) no-repeat; width:190px;height:33px;}
+.wow .downloads h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/ttl-downloads.png) no-repeat; width:137px;height:29px;}
+.wow .community h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/ttl-community.png) no-repeat; width:128px;height:42px;}
+.wow .community .button a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/btn-community.gif) no-repeat;}
+.wow .expansion h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/ttl-expansion.png) no-repeat; width:128px;height:42px;}
+.wow .expansion a.EXL_WOWX1 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/btn-WOWX1.jpg) no-repeat;}
+.wow .expansion a.EXL_WOWX2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/btn-WOWX2.jpg) no-repeat;}
+.wow .expansion a.EXL_WOWX3 {background:url(http://eu.blizzard.com/static/_images/lang/en-us/games/wow/btn-WOWX3.jpg) no-repeat;}
+.wow .information h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/ttl_info.png) no-repeat; width:102px;height:11px}
+.wow .information .btn-try {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/btn-tryfree.gif) no-repeat; width:87px;height:27px;}
+.wow .information .btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/btn-buynow.gif) no-repeat;width:87px;height:27px;}
+.wow .information .btn-boxview {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/btn-productview.jpg) no-repeat;}
+.wow .backtogames a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/wow/btn-backtogames.gif) no-repeat;}
+
+
+
+/* BURNINGCRUSADE */
+
+/* BURNINGCRUSADE - menu Navigator */
+.burningcrusade .navigation .bar a { height: 83px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/nav-bar.gif);}
+.burningcrusade .bg01 {top:0;height:493px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/bg-top.jpg) top center no-repeat;}
+
+/* BURNINGCRUSADE - contents */
+.burningcrusade .top-buttons a.btn-buy {margin-top:14px;margin-left:73px;}
+.burningcrusade .top-buttons a.btn-try {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/btn-tryfree01.gif) no-repeat; width:238px;height:60px;}
+.burningcrusade .intro h2 {top:37px;left:42px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/ttl-header.png) no-repeat;}
+.burningcrusade .intro div.cap div {top:3px;left:0;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/txt-A.gif) no-repeat; width:43px;height:42px;}
+.burningcrusade .trailers h2 {top:13px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/ttl-trailer.png) no-repeat; width:87px;height:34px}
+.burningcrusade .screenshots h2 {top:2px;left:5px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/ttl-screenshot.png) no-repeat; width:123px;height:36px}
+.burningcrusade .features h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/ttl-feature.png) no-repeat; width:190px;height:33px;}
+.burningcrusade .downloads h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/ttl-downloads.png) no-repeat; width:122px;height:29px;}
+.burningcrusade .community h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/ttl-community.png) no-repeat; width:128px;height:42px;}
+.burningcrusade .community .button a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/btn-community.gif) no-repeat;width:257px;height:41px;}
+.burningcrusade .information h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/ttl_info.png) no-repeat; width:236px;height:14x}
+.burningcrusade .information .btn-try {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/btn-tryfree.gif) no-repeat; width:87px;height:27px;}
+.burningcrusade .information .btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/btn-buynow.gif) no-repeat;width:87px;height:27px;}
+.burningcrusade .information .btn-boxview {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/btn-productview.jpg) no-repeat;}
+.burningcrusade .backtogames a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/burningcrusade/btn-backtogames.gif) no-repeat;}
+
+
+
+/* Diablo II */
+
+/* Diablo II - menu Navigator */
+.d2 .navigation .bar a { height: 83px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/nav-bar.gif);}
+/* Diablo II - contents */
+.d2 .top-buttons a.btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/btn-buynow01.gif) no-repeat; width:240px;height:62px;}
+.d2 .intro h2 {top:37px;left:46px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/ttl-header.png) no-repeat;}
+.d2 .intro div.cap div {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/txt-V.gif) no-repeat; width:49px;height:40px;}
+.d2 .trailers h2 {top:16px; left:4px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/ttl-trailer.png) no-repeat; width:87px;height:34px}
+.d2 .screenshots h2 {top:2px; left:1px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/ttl-screenshot.png) no-repeat; width:123px;height:36px}
+.d2 .features h2 {top:12px;left:33px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/ttl-feature.png) no-repeat; width:190px;height:33px;}
+.d2 .downloads h2 {top:14px;left:31px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/ttl-downloads.png) no-repeat; width:137px;height:29px;}
+.d2 .community h2 {top:14px;left:31px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/ttl-community.png) no-repeat; width:128px;height:42px;}
+.d2 .community .button a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/btn-community.gif) no-repeat;}
+.d2 .expansion h2 {top:14px;left:31px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/ttl-expansion.png) no-repeat; width:128px;height:42px;}
+.d2 .expansion .bg {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/bg-expansion.jpg) no-repeat;}
+.d2 .information h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/ttl_info.png) no-repeat; width:46px;height:11px}
+.d2 .information .btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/btn-buynow.gif) no-repeat;width:87px;height:27px;top:}
+.d2 .information .btn-boxview {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/btn-productview.jpg) no-repeat;}
+.d2 .backtogames a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/d2/btn-backtogames.gif) no-repeat;}
+
+
+
+/* WarCraft III */
+
+/* WarCraft III - menu Navigator */
+.war3 .navigation .bar a { height: 83px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/nav-bar.gif);}
+/* WarCraft III - contents */
+.war3 .top-buttons a.btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/btn-buynow01.gif) no-repeat; width:240px;height:60px;}
+.war3 .intro h2 {top:42px;left:39px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/ttl-header.png) no-repeat;}
+.war3 .intro div.cap div {top:1px;left:3px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/txt-U.gif) no-repeat; width:46px;height:46px;}
+.war3 .intro .flashcap {width:53px;}
+.war3 .trailers h2 {top:-1px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/ttl-trailer.png) no-repeat; width:87px;height:34px}
+.war3 .screenshots h2 {top:-3px;left:3px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/ttl-screenshot.png) no-repeat; width:123px;height:36px}
+.war3 .features h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/ttl-feature.png) no-repeat; width:190px;height:33px;}
+.war3 .downloads h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/ttl-downloads.png) no-repeat; width:137px;height:29px;}
+.war3 .community h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/ttl-community.png) no-repeat; width:128px;height:42px;}
+.war3 .community .button a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/btn-community.gif) no-repeat;}
+.war3 .expansion h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/ttl-expansion.png) no-repeat; width:128px;height:42px;}
+.war3 .expansion {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/bg-expansion.jpg) no-repeat;}
+.war3 .information h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/ttl_info.png) no-repeat; width:62px;height:11x}
+.war3 .information .btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/btn-buynow.gif) no-repeat;width:87px;height:26px;}
+.war3 .information .btn-boxview {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/btn-productview.jpg) no-repeat;}
+.war3 .backtogames a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/war3/btn-backtogames.gif) no-repeat;}
+
+
+
+/* StarCraft */
+
+/* StarCraft - menu Navigator */
+.sc .navigation .bar a { height: 83px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/nav-bar.gif);}
+/* StarCraft - contents */
+.sc .top-buttons a.btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/btn-buynow01.gif) no-repeat; width:223px;height:51px;}
+.sc .intro h2 {top:38px;left:54px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/ttl-header.png) no-repeat;}
+.sc .intro div.cap div {left:0;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/txt-I.gif) no-repeat; width:53px;height:45px;}
+.sc .intro .flashcap {width:85px;}
+.sc .trailers h2 {top:12px;left:3px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/ttl-trailer.png) no-repeat; width:170px;height:28px}
+.sc .screenshots h2 {top:5px;left:-4px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/ttl-screenshot.png) no-repeat; width:160px;height:29px}
+.sc .features h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/ttl-feature.png) no-repeat; width:250px;height:33px;}
+.sc .downloads h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/ttl-downloads.png) no-repeat; width:144px;height:30px;}
+.sc .community h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/ttl-community.png) no-repeat; width:155px;height:30px;}
+.sc .community .button a {top:2px;left:2px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/btn-community.gif) no-repeat;}
+.sc .expansion h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/ttl-expansion.png) no-repeat; width:138px;height:30px;}
+.sc .expansion {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/bg-expansion.jpg) no-repeat;}
+.sc .information h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/ttl_info.png) no-repeat; width:84px;height:10px}
+.sc .information .btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/btn-buynow.gif) no-repeat;width:110px;height:27px;}
+.sc .information .btn-boxview {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/btn-productview.jpg) no-repeat;}
+.sc .backtogames a {left:2px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc/btn-backtogames.gif) no-repeat;}
+
+/* StarCraft II */
+
+/* StarCraft II - menu Navigator */
+.sc2 .navigation .bar a { height: 83px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/nav-bar.gif);}
+.sc2 .msg-launch-date {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/txt-launch-date.png) no-repeat;}
+/* StarCraft II - contents */
+.sc2 .top-buttons a.btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/btn-buynow01.gif) no-repeat;}
+.sc2 .intro h2 {top:38px;left:54px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/ttl-header.png) no-repeat;}
+.sc2 .intro .flashcap div {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/txt-info-firstline.png) no-repeat; width: 469px;}
+.sc2 .trailers h2 {top:12px;left:3px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/ttl-trailer.png) no-repeat; width:170px;height:28px}
+.sc2 .screenshots h2 {top:5px;left:-4px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/ttl-screenshot.png) no-repeat; width:100%;height:29px}
+.sc2 .features h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/ttl-feature.png) no-repeat; width:323px;height:123px;}
+.sc2 #battlenet h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/ttl-battlenet.png) no-repeat; width:226px;height:123px;}
+.sc2 #battlenet .content  {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/bg-battlenet-withtext.jpg) no-repeat; width:858px; height:560px; margin-left:12px;}
+.sc2 #battlenet .content a.first {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/btn-battlenet1.jpg) no-repeat;}
+.sc2 #battlenet .content a.second {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/btn-battlenet2.jpg) no-repeat;}
+.sc2 #battlenet .content a.third {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/btn-battlenet3.jpg) no-repeat;}
+.sc2 .downloads h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/ttl-downloads.png) no-repeat; width:235px;height:115px; left:40px;}
+.sc2 .community h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/ttl-community.png) no-repeat; width:264px;height:112px; top:-1px; left:33px;}
+.sc2 .community .describe {line-height:15px !important;}
+.sc2 .community .button a {top:2px;left:2px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/btn-community.gif) no-repeat;}
+.sc2 .expansion h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/ttl-expansion.png) no-repeat; width:238px;height:148px; top:5px; left:25px;}
+.sc2 .information h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/ttl_info.png) no-repeat; width:340px;height:11px; top:16px;left:17px;}
+.sc2 .information .btn-buy {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/btn-buynow.gif) no-repeat;width:218px;height:27px;}
+.sc2 .information .btn-boxview {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/btn-productview.jpg) no-repeat;}
+.sc2 .information .logo-rating {top:74px; right:16px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/rating_sc2.png) no-repeat; width:159px;height:52px}
+.sc2 .backtogames a {left:2px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/btn-backtogames.gif) no-repeat;}
+
+.sc2 .promobuttons a.sc2-digital-buynow { background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/button-digital-buynow.jpg);}
+.sc2 .promobuttons a.sc2-digital-advance { background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/sc2/button-digital-advance.jpg);}
+
+
+
+
+/* Cataclysm - Background */
+.cataclysm .navigation .bar a { height: 83px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/nav-bar.gif);}
+.cataclysm .bg01 {top:0;height:502px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/bg-top.jpg) top center no-repeat;z-index:0 !important}
+
+/* Cataclysm - contents */
+.cataclysm .top-buttons .withcart, .cataclysm .top-buttons .btn-try {display:none;}
+.cataclysm .top-buttons a.btn-buy-digital {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/btn-buynow01.gif) no-repeat; }
+.cataclysm .intro .flashcap div {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/txt-info-firstline.png) no-repeat;}
+.cataclysm .trailers h2 {top:14px;left:1px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/ttl-trailer.png) no-repeat; width:82px;height:34px}
+.cataclysm .screenshots h2 {top:2px;left:5px;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/ttl-screenshot.png) no-repeat; width:123px;height:36px}
+.cataclysm .features h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/ttl-feature.png) no-repeat; width:200px;height:33px;}
+.cataclysm .downloads h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/ttl-downloads.png) no-repeat; width:146px;height:29px;}
+.cataclysm .community h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/ttl-community.png) no-repeat; width:152px;height:42px;}
+.cataclysm .community .button a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/btn-community.gif) no-repeat;width:257px; height:41px;}
+.cataclysm .information h2 {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/ttl_info.png) no-repeat; width:238px;height:14px;}
+.cataclysm .information .btn-try, .cataclysm .information .btn-buy {display:none;}
+.cataclysm .information .btn-boxview {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/btn-productview.jpg) no-repeat;}
+.cataclysm .backtogames a {background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/cataclysm/btn-backtogames.gif) no-repeat;}
+
+
+/* Diablo III*/
+.d3 .top-buttons a.btn-buy { background-image: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/btn-buynow.jpg");}
+.d3 .intro .flashcap div { background: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/ttl-header.png") no-repeat scroll 0 0 transparent; }
+.d3 .feature-1 h2 { background: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/ttl-feature-1.png") no-repeat 0 0; height:53px; }
+.d3 .feature-2 h2 { background: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/ttl-feature-2.png") no-repeat 0 0; height:28px; }
+.d3 .feature-3 h2 { background: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/ttl-feature-3.png") no-repeat 0 0; height:53px; }
+.d3 .feature-4 h2 { background: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/ttl-feature-4.png") no-repeat 0 0; height:53px; }
+.d3 .button-auction { background-image: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/btn-auction-house.gif");}
+.d3 .button-game-guide { background-image: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/btn-game-guide.gif");}
+.d3 .button-news { background-image: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/btn-news.gif");}
+.d3 .button-media { background-image: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/btn-media.gif");}
+.d3 .backtogames a { background: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/btn-backtogames.png") no-repeat scroll 0 0 transparent; }
+.d3 .backtogames, .d3 .backtogames a { height: 65px; width: 340px;}
+.d3 .trailers h2 { background-image: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/ttl-video.png"); width: 300px; }
+.d3 .screenshots h2 { background-image: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/ttl-screenshots.png"); width: 300px; }
+.d3 .navigation .bar a { background-image: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/nav-bar.gif");}
+.d3 #viewerContent .blacksoulstone  .videoThumbnail_text { letter-spacing:-0.1em }
+.d3 .buy-game a { background: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/btn-buynow.jpg") no-repeat 0 0; height:61px; width:301px;  }
+.d3 .date { background: url("http://eu.blizzard.com/static/_images/lang/it-it/games/d3/date.png") no-repeat 0 0;}
+
+/* Mists of Pandaria Page */
+.mists .navigation .bar a { background: url(http://eu.blizzard.com/static/_images/games/mists/nav-bar.gif) no-repeat 0 0; }
+.mists .top-buttons .pre-purchase { background: url(http://eu.blizzard.com/static/_images/games/mists/buynow-button-top-it_IT.png) no-repeat 0 0; }
+.mists .top-buttons .is-hover { background-position: 0 -200px; }
+
+.mists .purchase-cta { margin-top: 25px; }
+.mists .purchase-cta .info-text{ padding-top: 18px;}
+
+.mists .purchase-cta .btn-pre-purchase { background: url(http://eu.blizzard.com/static/_images/games/mists/buynow-button-bottom-it_IT.jpg) no-repeat 0 0; }
+
+.mists .backtogames .bg { background: url(http://eu.blizzard.com/static/_images/games/mists/footer-back-to-games-it_IT.jpg) no-repeat 11px 0; }
+.mists .backtogames .is-hover { background-position: 11px -160px; }
+.mists .information .logo-rating {position:absolute;top:84px;right:28px;display:block;background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/rating_cataclysm.gif) no-repeat top center; width: 171px; height: 44px; }
+.mists .bg04 { background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/mists/bg-mid-03.jpg) no-repeat center top; height: 1228px; top: 2025px; }
+
+/*SC2 heart of the swarm*/
+.hots .information .logo-rating { top:55px; right:95px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/games/rating_sc2.png) no-repeat; width:159px;height:52px }
+.hots .navigation .bar a { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/games/hots/nav-bar.jpg); }
+.hots .top-buttons .btn-buy { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/games/hots/btn-buy.jpg); }
+.hots .pre-order-section a.pre-purchase { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/games/hots/btn-buy-small.png); }
+.hots .backtogames a { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/games/hots/btn-backtogames.png); }
