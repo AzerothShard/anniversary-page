@@ -372,7 +372,7 @@ a {selector-dummy:expression(this.hideFocus=true)}
 
 .footer .footercontents {width:758px;}
 .langbox { bottom:-27px; left:305px}
-.footer .footercontents .language .langarrow, .langbox .bottom .lang .currentlanguage .langarrow  { background: none;  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_images/layout/arrow_blue.png)');}
+.footer .footercontents .language .langarrow, .langbox .bottom .lang .currentlanguage .langarrow  { background: none;  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/layout/arrow_blue.png)');}
 .footer .footercontents .language:hover .langarrow, .langbox .bottom .lang .currentlanguage:hover .langarrow  { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='http://eu.blizzard.com/static/_images/layout/arrow_white.png');}
 .langbox .bottom .lang .currentlanguage .languageitem { display: inline-block; margin: 0 0 0 6px; padding: 4px 0 0 0; 	}
 .langbox .bottom .lang .currentlanguage .langarrow { margin-top:3px;	}
@@ -397,7 +397,7 @@ a {selector-dummy:expression(this.hideFocus=true)}
 .submissionform .termstext input {top:23px;}
 .submissionform .form_fileselect input {margin-left:3px; border:1px}
 
-.holidaycard-image{ background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../_images/community/contests/holidaycard/holidaycard.png)'); }
+.holidaycard-image{ background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/community/contests/holidaycard/holidaycard.png)'); }
 
 /* Art Gallery */
 .blizzart-gallery .gallery-filter {width:256px;}

@@ -825,7 +825,7 @@ body.sc2 a {color:#127db5;}
 /* StarCraft II - Promo Buttons */
 
 .sc2 .promobuttons { display:none; width: 513px; height: 120px; position : absolute; top: -126px;}
-/* .sc2 .promobuttons .msg-launch-date {width:478px; height:96px; position:absolute; top:-159px; left:30px; background:url(../_images/lang/en-us/games/sc2/txt-launch-date.png) no-repeat;} */
+/* .sc2 .promobuttons .msg-launch-date {width:478px; height:96px; position:absolute; top:-159px; left:30px; background:url(../images/lang/en-us/games/sc2/txt-launch-date.png) no-repeat;} */
 .sc2 #purchase-buttons-all {display:block;}
 .sc2 .promobuttons a.sc2-digital-buynow { width: 286px; height: 89px; background: url(http://eu.blizzard.com/static/_images/lang/en-us/games/sc2/button-digital-buynow.jpg) top left no-repeat; position: absolute; margin: 0 0 0 126px;}
 .sc2 .promobuttons a.sc2-digital-buynow:hover {background-position: bottom left;}
@@ -932,7 +932,7 @@ body.cataclysm {background-color:#000 !important;}
 .cataclysm .information .view-detail {background:url(http://eu.blizzard.com/static/_images/games/cataclysm/icon-bluearrow.gif) no-repeat;}
 .cataclysm .backtogames, .cataclysm .backtogames a {width:208px;height:41px;}
 .cataclysm .backtogames {top:171px;left:-2px;}
-/*.cataclysm .backtogames .bg {top:-49px;left:-98px;background:url(../_images/games/cataclysm/bg-btn-backto.png) no-repeat; width:393px;height:163px;}*/
+/*.cataclysm .backtogames .bg {top:-49px;left:-98px;background:url(../images/games/cataclysm/bg-btn-backto.png) no-repeat; width:393px;height:163px;}*/
 .cataclysm .backtogames a:hover {background-position:0 -41px;}
 .cataclysm .game-footer {top:337px; padding-bottom:0;}
 

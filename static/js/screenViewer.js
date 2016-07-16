@@ -34,7 +34,7 @@ var sV = {
 		sV.loader  = $j("#loadingAnimation");
 
 		sV.btnImage = new Image();
-		sV.btnImage.src = Core.staticUrl + '/_images/lang/' + lang.replace('_','-') + '/btn-copylink.gif';
+		sV.btnImage.src = Core.staticUrl + '/images/lang/' + lang.replace('_','-') + '/btn-copylink.gif';
 
 		//set top position
 		$(sV.frame).css("top",$j(window).scrollTop() + "px")

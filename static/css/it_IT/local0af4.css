@@ -63,7 +63,7 @@ a.dl_btn:link, a.dl_btn:active, a.dl_btn:visited  {background-image:url(http://e
 	.page-press ul a.profile {background-image:url(http://eu.blizzard.com/static/_images/lang/it-it/presscard-pressreleases.jpg);}
 	.page-press ul a.mission {background-image:url(http://eu.blizzard.com/static/_images/lang/it-it/presscard-presskits.jpg);}
 
-	.page-careers .jobs-only div a.jobsbtn {background:url(http://eu.blizzard.com/_images/lang/it-it/button-searchjobs.png) 0 0 no-repeat;}
+	.page-careers .jobs-only div a.jobsbtn {background:url(http://eu.blizzard.com/images/lang/it-it/button-searchjobs.png) 0 0 no-repeat;}
 
 
 	.page-careers .column div a.internsbtn {width:234px; height:53px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/btn-internships.png) 0 0 no-repeat; display:block; margin:0 0 0 0;}
@@ -158,6 +158,6 @@ a.dl_btn:link, a.dl_btn:active, a.dl_btn:visited  {background-image:url(http://e
 .mop-launch .button-other-retailers { background-image: url(http://eu.blizzard.com/static/_images/company/events/mists-of-pandaria-launch/button-other-retailers-it-it.png) }
 
 /* HotS launch event */
-.subheader .hots-launch { background: url("http://eu.blizzard.com/_images/company/events/heart-of-the-swarm-launch/header-it-it.jpg") no-repeat center top #0c0116; height: 460px; min-width: 1024px; }
+.subheader .hots-launch { background: url("http://eu.blizzard.com/images/company/events/heart-of-the-swarm-launch/header-it-it.jpg") no-repeat center top #0c0116; height: 460px; min-width: 1024px; }
 .hots-launch .button-other-retailers { background-image: url(http://eu.blizzard.com/static/_images/company/events/heart-of-the-swarm-launch/button-other-retailers-it-it.png) }
 .hots-launch .watch-live .watch-live-button .watch-live-button-label { padding-top: 17px; }

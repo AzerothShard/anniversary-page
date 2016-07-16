@@ -66,14 +66,14 @@ sup {vertical-align:top;}
 .fiftycent div div div {float:left; position:relative; left:50%;}
 .fiftycent div div div div {float:none; position:static;}
 
-.frontpagearea {width: 100%; height: 867px; background: url(../_images/frontpage/newsareabg.gif); background-position: center 500px; background-repeat: repeat-x; }
-.frontpagecenter {width: 100%; height: 867px; background: url(../_images/frontpage/newsarea.jpg); background-position: center 500px; background-repeat: no-repeat;  min-width: 980px; }
+.frontpagearea {width: 100%; height: 867px; background: url(../images/frontpage/newsareabg.gif); background-position: center 500px; background-repeat: repeat-x; }
+.frontpagecenter {width: 100%; height: 867px; background: url(../images/frontpage/newsarea.jpg); background-position: center 500px; background-repeat: no-repeat;  min-width: 980px; }
 .frontpageheader {width: 100%; height: 570px; z-index: 100;  min-width: 980px; margin: 0 auto }
 
 .frontpageheader .noFlashBg {width: 100%; height: 500px; text-align:center; font:22px/1.964 'Century Gothic', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Verdana, Arial, Helvetica, sans-serif; letter-spacing:1px; color:#00A2F1;}
 .frontpageheader .noFlashBg div {padding-top: 250px;}
 .frontpageheader .noFlashBg div a.flashmsg {display:block; margin-bottom:20px;}
-.frontpageheader .noFlashBg div a.getflash {width: 129px; height: 39px; background: url(../_images/layout/btn-get-flash.gif) top left no-repeat; display: block; margin: 0 auto;}
+.frontpageheader .noFlashBg div a.getflash {width: 129px; height: 39px; background: url(../images/layout/btn-get-flash.gif) top left no-repeat; display: block; margin: 0 auto;}
 .frontpageheader .noFlashBg div a.getflash:hover {}
 .frontpageheader .static-banners { height:500px; position:relative }
 .frontpageheader .static-banner { background-repeat:no-repeat; background-position:50% 0; height:500px; width:100%; position:absolute; top:0 }
@@ -82,14 +82,14 @@ sup {vertical-align:top;}
 .frontpageheader .static-banner-buttons { width:990px; height:68px; margin:0 auto; position:relative }
 .frontpageheader .static-banner-buttons-wrapper { width:464px; float:right; height:68px; overflow:hidden }
 .frontpageheader .static-banner-buttons-wrapper #button-row { height:68px; -webkit-transition: margin-left 500ms ease-out; -moz-transition: margin-left 500ms ease-out; -o-transition: margin-left 500ms ease-out }
-.frontpageheader .static-button-frame { height:68px; width:10px; position:absolute; top:0; background:url(../_images/frontpage/logobar-top.png) 0 0 no-repeat }
+.frontpageheader .static-button-frame { height:68px; width:10px; position:absolute; top:0; background:url(../images/frontpage/logobar-top.png) 0 0 no-repeat }
 .frontpageheader .static-button-frame.left-frame { right:455px; background-position:0 0 }
 .frontpageheader .static-button-frame.right-frame { right:0px; background-position:-454px 0 }
-.frontpageheader .static-banner-button { display:block; width:116px; height:68px; float:left; background:url(../_images/frontpage/logobar-button-bg.png) no-repeat }
+.frontpageheader .static-banner-button { display:block; width:116px; height:68px; float:left; background:url(../images/frontpage/logobar-button-bg.png) no-repeat }
 .frontpageheader .static-banner-button:hover { background-position:0 -69px; }
 .frontpageheader .static-banner-button span { display:block; width:116px; height:68px; background-repeat:no-repeat; background-position:50% 50% }
 .frontpageheader .static-banner-button.active-banner-button { background-position:0 -138px }
-.frontpageheader .static-banner-arrow { display:block; background:url(../_images/frontpage/arrows.png) no-repeat; width:52px; height:92px; position:absolute; top:204px }
+.frontpageheader .static-banner-arrow { display:block; background:url(../images/frontpage/arrows.png) no-repeat; width:52px; height:92px; position:absolute; top:204px }
 .frontpageheader .static-banner-arrow.arrow-left { left:0 }
 .frontpageheader .static-banner-arrow.arrow-left:hover { background-position:0 100% }
 .frontpageheader .static-banner-arrow.arrow-right { right:0; background-position:100% 0 }
@@ -122,53 +122,53 @@ sup {vertical-align:top;}
 #screenViewer a#pageRight{width:23px;height:23px;display:none;background-repeat:no-repeat;position:absolute;bottom:-29px;right:0;}
 #screenViewer .disabled a#pageLeft, #screenViewer .disabled a#pageRight {display:none;}
 
-#screenViewer #viewerCopyLink {position:relative;display:none; background-color:#02283d; border-bottom:1px solid #012031;width:100%;height:28px;background-image:url('../_images/games/screenshot/lightbox-b.gif');}
+#screenViewer #viewerCopyLink {position:relative;display:none; background-color:#02283d; border-bottom:1px solid #012031;width:100%;height:28px;background-image:url('../images/games/screenshot/lightbox-b.gif');}
 #screenViewer #viewerCopyLink #link_text {position:absolute; top:4px; left:6px; height:20px; background-color:#010e13; overflow:hidden;}
 #screenViewer #viewerCopyLink #link_text input {border:0px; margin:0 7px; font-size:11px; width:100%; background-color:#010e13; color:#227593;}
 #screenViewer #viewerCopyLink div.btn_copylink {position:absolute; top:3px; right:3px; z-index:9999999999; height:21px;}
 
-#screenViewer #viewerDescImage {position:relative;display:none; background-color:#02283d; border-bottom:1px solid #012031;width:100%; background-image:url('../_images/games/screenshot/lightbox-b2.gif'); font-size:12px;}
+#screenViewer #viewerDescImage {position:relative;display:none; background-color:#02283d; border-bottom:1px solid #012031;width:100%; background-image:url('../images/games/screenshot/lightbox-b2.gif'); font-size:12px;}
 #screenViewer #viewerDescImage div {padding:8px 12px;}
 
 .buttonbasic {padding-top:25px; height:53px;}
 .buttonbasic div {position:absolute; right:50%;}
 .buttonbasic div div {position:relative; left:50%;}
-.buttonbasic div div a {background:url(../_images/layout/button-bg.gif) 0 0 no-repeat; display:block; width:234px; height:53px; font:26px/53px Arial, Helvetica, sans-serif; color:#fff; text-align:center; text-transform:lowercase;}
-.buttonbasic .disabled div a {background:url(../_images/layout/button-disabled-bg.gif) 0 0 no-repeat; color:#a5a5a5;}
+.buttonbasic div div a {background:url(../images/layout/button-bg.gif) 0 0 no-repeat; display:block; width:234px; height:53px; font:26px/53px Arial, Helvetica, sans-serif; color:#fff; text-align:center; text-transform:lowercase;}
+.buttonbasic .disabled div a {background:url(../images/layout/button-disabled-bg.gif) 0 0 no-repeat; color:#a5a5a5;}
 .buttonbasic div div a:hover {background-position:0 100%;}
 .buttonbasic .disabled div a:hover {background-position:0 0;}
-a.button-blue-small {display:inline-block; padding-left:10px; height:21px; line-height:21px; background:url('../_images/layout/button-bg-screw-small.gif') 0 0 no-repeat; color:#fff;}
+a.button-blue-small {display:inline-block; padding-left:10px; height:21px; line-height:21px; background:url('../images/layout/button-bg-screw-small.gif') 0 0 no-repeat; color:#fff;}
 a:hover.button-blue-small {background-position:0 -24px;}
-a.button-blue-small span  {display:inline-block; height:21px; padding-right:10px; line-height:21px; background:url('../_images/layout/button-bg-screw-small.gif') 100% -72px no-repeat; cursor:pointer; }
+a.button-blue-small span  {display:inline-block; height:21px; padding-right:10px; line-height:21px; background:url('../images/layout/button-bg-screw-small.gif') 100% -72px no-repeat; cursor:pointer; }
 a:hover.button-blue-small span  {background-position:100% -97px;}
 a.button-blue-small.disabled {background-position:0 -48px !important;}
 a.button-blue-small.disabled span  {background-position:100% -122px !important; color:#bababa; cursor:default;}
-a.button-blue-large {display:inline-block; padding-left:27px; height:55px; background:url('../_images/layout/button-bg-screw-large.gif') 0 -1px no-repeat; color:#fff; text-align:center;}
+a.button-blue-large {display:inline-block; padding-left:27px; height:55px; background:url('../images/layout/button-bg-screw-large.gif') 0 -1px no-repeat; color:#fff; text-align:center;}
 a:hover.button-blue-large {background-position:0 -58px;}
-a.button-blue-large span  {font-size:12px; line-height:55px; display:inline-block; height:55px; padding-right:27px; background:url('../_images/layout/button-bg-screw-large.gif') 100% -115px no-repeat; cursor:pointer; text-shadow: 0 0 3px #000;}
+a.button-blue-large span  {font-size:12px; line-height:55px; display:inline-block; height:55px; padding-right:27px; background:url('../images/layout/button-bg-screw-large.gif') 100% -115px no-repeat; cursor:pointer; text-shadow: 0 0 3px #000;}
 a:hover.button-blue-large span  {background-position:100% -172px;}
 a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-style:normal; margin-top:10px;}
 
 
-#screenViewer .topBorder {top:-43px;left:0;width:100%;height:43px;background-image:url('../_images/games/screenshot/lightbox-t.gif')}
-#screenViewer .rightBorder {top:0;right:-6px;width:6px;height:100%;background-image:url('../_images/games/screenshot/lightbox-r.gif')}
-#screenViewer .bottomBorder {bottom:-37px;left:0;width:100%;height:37px;background-image:url('../_images/games/screenshot/lightbox-b.gif')}
-#screenViewer .leftBorder {top:0;left:-6px;width:6px;height:100%;background-image:url('../_images/games/screenshot/lightbox-l.gif')}
-#screenViewer .topLeft {top:-43px;left:-6px;width:255px;height:43px;background-image:url('../_images/games/screenshot/lightbox-tl.png')}
-#screenViewer .topRight {top:-43px;right:-6px;width:254px;height:112px;background-image:url('../_images/games/screenshot/lightbox-tr.png')}
-#screenViewer .bottomLeft {bottom:-37px;left:-6px;width:145px;height:37px;background-image:url('../_images/games/screenshot/lightbox-bl.png')}
-#screenViewer .bottomRight {bottom:-37px;right:-6px;width:145px;height:37px;background-image:url('../_images/games/screenshot/lightbox-br.png') }
+#screenViewer .topBorder {top:-43px;left:0;width:100%;height:43px;background-image:url('../images/games/screenshot/lightbox-t.gif')}
+#screenViewer .rightBorder {top:0;right:-6px;width:6px;height:100%;background-image:url('../images/games/screenshot/lightbox-r.gif')}
+#screenViewer .bottomBorder {bottom:-37px;left:0;width:100%;height:37px;background-image:url('../images/games/screenshot/lightbox-b.gif')}
+#screenViewer .leftBorder {top:0;left:-6px;width:6px;height:100%;background-image:url('../images/games/screenshot/lightbox-l.gif')}
+#screenViewer .topLeft {top:-43px;left:-6px;width:255px;height:43px;background-image:url('../images/games/screenshot/lightbox-tl.png')}
+#screenViewer .topRight {top:-43px;right:-6px;width:254px;height:112px;background-image:url('../images/games/screenshot/lightbox-tr.png')}
+#screenViewer .bottomLeft {bottom:-37px;left:-6px;width:145px;height:37px;background-image:url('../images/games/screenshot/lightbox-bl.png')}
+#screenViewer .bottomRight {bottom:-37px;right:-6px;width:145px;height:37px;background-image:url('../images/games/screenshot/lightbox-br.png') }
 #screenViewer a.close {  position:absolute; z-index:116; top:-37px; right:3px; width:30px; height:30px;
-						 background-image:url('../_images/games/screenshot/lightbox-close.gif'); }
+						 background-image:url('../images/games/screenshot/lightbox-close.gif'); }
 #screenViewer.blizzard_sv a.close { right:3px;  }
 
 #screenViewer a#pageLeft, #screenViewer a#pageRight { position:absolute; bottom:-31px; width:25px; height:25px; }
 #screenViewer.blizzard_sv a#pageLeft, #screenViewer.blizzard_sv a#pageRight { width:33px; height:26px;  }
-#screenViewer a#pageLeft{  background-image:url('../_images/games/screenshot/lightbox-arrowleft.gif')}
-#screenViewer a#pageRight{ background-image:url('../_images/games/screenshot/lightbox-arrowright.gif')}
+#screenViewer a#pageLeft{  background-image:url('../images/games/screenshot/lightbox-arrowleft.gif')}
+#screenViewer a#pageRight{ background-image:url('../images/games/screenshot/lightbox-arrowright.gif')}
 #screenViewer a.close:hover, #screenViewer a#pageLeft:hover, #screenViewer a#pageRight:hover {background-position:0 bottom;}
 
-#screenViewer div#loadingAnimation{background-repeat:no-repeat;background-image:url(../_images/ajax-loader.gif);width:16px;height:16px;position:absolute;top:-20px;right:40px;}
+#screenViewer div#loadingAnimation{background-repeat:no-repeat;background-image:url(../images/ajax-loader.gif);width:16px;height:16px;position:absolute;top:-20px;right:40px;}
 #screenViewer.blizzard_sv div#loadingAnimation{ top:-31px; right:56px; }
 
 .viewerPaging #viewerContent {cursor:pointer;}
@@ -181,9 +181,9 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 	.pagetitle { height: 120px; }
 	.pagetitle .title {padding: 44px 0 0 24px;}
 
-	body.games-landing { background: url(../_images/games/landing/games-bg.jpg) no-repeat 50% 0 #142430; }
-	body.community-landing{ background: url(../_images/community/landing/community-landing.jpg) no-repeat 50% 0 #010000; }
-	body.company-landing{ background: url(../_images/company/landing/company-landing.jpg) no-repeat 50% 0 #150f08; }
+	body.games-landing { background: url(../images/games/landing/games-bg.jpg) no-repeat 50% 0 #142430; }
+	body.community-landing{ background: url(../images/community/landing/community-landing.jpg) no-repeat 50% 0 #010000; }
+	body.company-landing{ background: url(../images/company/landing/company-landing.jpg) no-repeat 50% 0 #150f08; }
 
 
 
@@ -196,10 +196,10 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 
 	.company-landing .links .standardbox .middlebar .backgroundfour a {margin: 14px 0 0 13px;}
 	.company-landing .links .standardbox .middlebar .backgroundfour a:hover {opacity: 0.7;  filter:alpha(opacity=70);}
-	.company-landing .links .standardbox .middlebar .backgroundfour a.about {width:217px; height: 186px; background: url(../_images/lang/en-us/company-about.jpg); display: block; }
-	.company-landing .links .standardbox .middlebar .backgroundfour a.careers {width:217px; height: 186px; background: url(../_images/lang/en-us/company-careers.jpg); display: block; }
-	.company-landing .links .standardbox .middlebar .backgroundfour a.events {width:217px; height: 186px; background: url(../_images/lang/en-us/company-events.jpg); display: block; }
-	.company-landing .links .standardbox .middlebar .backgroundfour a.press {width:217px; height: 186px; background: url(../_images/lang/en-us/company-press.jpg); display: block; }
+	.company-landing .links .standardbox .middlebar .backgroundfour a.about {width:217px; height: 186px; background: url(../images/lang/en-us/company-about.jpg); display: block; }
+	.company-landing .links .standardbox .middlebar .backgroundfour a.careers {width:217px; height: 186px; background: url(../images/lang/en-us/company-careers.jpg); display: block; }
+	.company-landing .links .standardbox .middlebar .backgroundfour a.events {width:217px; height: 186px; background: url(../images/lang/en-us/company-events.jpg); display: block; }
+	.company-landing .links .standardbox .middlebar .backgroundfour a.press {width:217px; height: 186px; background: url(../images/lang/en-us/company-press.jpg); display: block; }
 	.company-landing .links .standardbox .middlebar .backgroundfour .line { clear: both; height: 100%;}
 	.company-landing .links .standardbox .middlebar .backgroundfour .line div { }
 	.company-landing .links .standardbox .middlebar .backgroundfour .line .box1 {width: 245px; float: left;}
@@ -211,7 +211,7 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 	.company-landing .didyouknow  .standardbox .middlebar .line {height: 155px; clear: both;}
 	.company-landing .contact  .standardbox .middlebar .line {height: 155px; clear: both;}
 	.company-landing .buttons {padding: 10px 26px 15px 26px;  height: 30px;}
-	.company-landing .buttons a.contactus {width: 119px; height: 27px; background: url(../_images/lang/en-us/btn-contactus.gif); background-repeat: no-repeat; background-position: top left; display: block; margin: 0 auto; }
+	.company-landing .buttons a.contactus {width: 119px; height: 27px; background: url(../images/lang/en-us/btn-contactus.gif); background-repeat: no-repeat; background-position: top left; display: block; margin: 0 auto; }
 	.company-landing .buttons a:hover { background-position: bottom left; }
 	.company-landing .links .standardbox .middlebar .backgroundfour .description { padding-top: 18px;}
 	.company-landing .contact .standardbox .middlebar .line .description { padding-top: 20px;}
@@ -219,14 +219,14 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 
 	/* blizzard 20th anniversary */
 	body.b20-landing { background:#00060b }
-	.b20-landing .b20-landing-bg { background: url(../_images/lang/en-us/b20/landing-bg.jpg) 50% 0 no-repeat #00060b; -webkit-background-size:2490px 1236px }
-	.b20-landing .b20-intro { padding-top:178px; height:364px; background:url(../_images/lang/en-us/b20/landing-title.jpg) 0 102px no-repeat; position:relative }
+	.b20-landing .b20-landing-bg { background: url(../images/lang/en-us/b20/landing-bg.jpg) 50% 0 no-repeat #00060b; -webkit-background-size:2490px 1236px }
+	.b20-landing .b20-intro { padding-top:178px; height:364px; background:url(../images/lang/en-us/b20/landing-title.jpg) 0 102px no-repeat; position:relative }
 	.b20-landing .b20-intro #logo-sparkles { float:right; width:520px; height:442px; position:absolute; right:-12px; top:57px }
 	.b20-landing .b20-intro p { color:#9edfff; font-family:Arial, Helvetica, sans-serif; font-size:12px; width:443px; padding-left:32px; line-height:16px; text-shadow:1px 1px 1px black; margin: 12px 0 }
 	.b20-landing .b20-intro p.first-paragraph { margin-top:200px }
 
 	.b20-landing .thumb-links { width:940px; padding-left:40px; padding-bottom:120px }
-	.b20-landing .thumb-links a { display:block; float:left; width:284px; height:151px; margin-right:22px; margin-bottom:22px; background:url(../_images/lang/en-us/b20/thumbs.jpg) no-repeat }
+	.b20-landing .thumb-links a { display:block; float:left; width:284px; height:151px; margin-right:22px; margin-bottom:22px; background:url(../images/lang/en-us/b20/thumbs.jpg) no-repeat }
 	.b20-landing .thumb-links a.b20-dim { cursor:default }
 	.b20-landing .thumb-links .b20-videos { background-position:0 0 }
 	.b20-landing .thumb-links .b20-videos:hover { background-position:-284px 0 }
@@ -244,18 +244,18 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 	.b20-landing .thumb-links .b20-blizzard-timeline:hover { background-position:-284px -755px }
 
 	body.b20-videos { background: #00060b }
-	.b20-videos .b20-video-bg { background: url(../_images/lang/en-us/b20/video-bg.jpg) 50% 0 no-repeat #00060b; -webkit-background-size:2490px 1230px }
+	.b20-videos .b20-video-bg { background: url(../images/lang/en-us/b20/video-bg.jpg) 50% 0 no-repeat #00060b; -webkit-background-size:2490px 1230px }
 	.b20-videos .breadcrumbsub { padding-top:122px; padding-left:25px }
 	.b20-videos .flashtextcontainer { height:45px }
 	.b20-videos .landing-footer { padding:0; margin-top:-20px }
 
 	.b20-videos .b20-video-intro { width:930px; height:166px; padding-left:50px; padding-top:10px }
 	.b20-videos .b20-video-intro p { color:#9edfff; font-family:Arial, Helvetica, sans-serif; font-size:11.5px; width:560px; line-height:18px; text-shadow:1px 1px 1px black; margin: 11px 0 }
-	.b20-videos #b20-video-holder { width:846px; padding:16px 66px 16px 68px; height:475px; background:url("../_images/lang/en-us/b20/video-bg.jpg") no-repeat 50% -485px #00060B;  -webkit-background-size:2490px 1230px }
+	.b20-videos #b20-video-holder { width:846px; padding:16px 66px 16px 68px; height:475px; background:url("../images/lang/en-us/b20/video-bg.jpg") no-repeat 50% -485px #00060B;  -webkit-background-size:2490px 1230px }
 	.b20-videos #video-subtitles { color:#FFF; display:none; background-color:#0c6993; -moz-border-radius:5px; border-radius:5px; font-size:14px; font-family:Arial, Helvetica, sans-serif; width:846px; padding:16px; margin-top:16px; text-align:center;-moz-box-shadow:0 0 5px #012a44; -webkit-box-shadow:0 0 5px #012a44; box-shadow:0 0 5px #012a44; }
-	.b20-videos .archive-wrapper { width:979px; background:url(../_images/company/about/b20/video-gradient-bg.jpg) no-repeat -979px 100%; padding-bottom:240px }
-	.b20-videos .archive-wrapper .video-info { width:878px; padding:0 51px 0 50px; background:url(../_images/company/about/b20/video-gradient-bg.jpg) no-repeat 0 0 }
-	.b20-videos .archive-wrapper .video-bg-repeat { width:979px; background:url(../_images/company/about/b20/video-bg-repeat.jpg) repeat-y; }
+	.b20-videos .archive-wrapper { width:979px; background:url(../images/company/about/b20/video-gradient-bg.jpg) no-repeat -979px 100%; padding-bottom:240px }
+	.b20-videos .archive-wrapper .video-info { width:878px; padding:0 51px 0 50px; background:url(../images/company/about/b20/video-gradient-bg.jpg) no-repeat 0 0 }
+	.b20-videos .archive-wrapper .video-bg-repeat { width:979px; background:url(../images/company/about/b20/video-bg-repeat.jpg) repeat-y; }
 	.b20-videos .archive-wrapper .video-archives { padding-top:50px }
 	.b20-videos .archive-wrapper .video-archives .flashtextcontainer { margin-bottom:15px }
 
@@ -277,41 +277,41 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 	
 	
 	.community-landing .wow {float: left; width: 306px; }
-	.community-landing .wow .logoarea { width: 100%; background: url(../_images/lang/en-us/community-logo-wow.jpg); background-position: top center; background-repeat: no-repeat;}
+	.community-landing .wow .logoarea { width: 100%; background: url(../images/lang/en-us/community-logo-wow.jpg); background-position: top center; background-repeat: no-repeat;}
 	.community-landing .d3 {float: right; width: 306px; }
-	.community-landing .d3 .logoarea { width: 100%; background: url(../_images/lang/en-us/community-logo-d3.jpg); background-position: top center; background-repeat: no-repeat;}
+	.community-landing .d3 .logoarea { width: 100%; background: url(../images/lang/en-us/community-logo-d3.jpg); background-position: top center; background-repeat: no-repeat;}
 	.community-landing .sc2 {margin: 0 auto; width: 306px; }
-	.community-landing .sc2 .logoarea { margin: 0; width: 100%; background: url(../_images/lang/en-us/community-logo-sc2.jpg); background-position: top center; background-repeat: no-repeat;}
+	.community-landing .sc2 .logoarea { margin: 0; width: 100%; background: url(../images/lang/en-us/community-logo-sc2.jpg); background-position: top center; background-repeat: no-repeat;}
 	.community-landing .logoarea { padding-top: 125px;}
 	.community-landing .communitytext {height: 30px; font-size: 11px; padding: 11px 26px 15px 26px; color: #5d91a3; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 	.community-landing .buttons {padding: 10px 26px 15px 26px;  height: 30px;}
-	.community-landing .buttons a.communitysites {width: 126px; height: 27px; background: url(../_images/lang/en-us/btn-communitysite.gif); background-repeat: no-repeat; background-position: top left; display: block; float: left;}
-	.community-landing .buttons a.forums {width: 101px; height: 27px; background: url(../_images/lang/en-us/btn-forums.gif); background-repeat: no-repeat; background-position: top left; display: block; float: right; }
+	.community-landing .buttons a.communitysites {width: 126px; height: 27px; background: url(../images/lang/en-us/btn-communitysite.gif); background-repeat: no-repeat; background-position: top left; display: block; float: left;}
+	.community-landing .buttons a.forums {width: 101px; height: 27px; background: url(../images/lang/en-us/btn-forums.gif); background-repeat: no-repeat; background-position: top left; display: block; float: right; }
 	.community-landing .buttons	a:hover { background-position: bottom left;}
 	.community-landing .social {height: 16px; font-size: 1px; line-height:0px;}
 
-	.community-landing .social a.icon-facebook {width:17px; height: 16px; background: url(../_images/layout/icon-facebook.gif); background-repeat: no-repeat; background-position: top left; display: block; float: right; position: relative; top:-29px; right: 33px; }
-	.community-landing .social a.icon-twitter {width:17px; height: 16px; background: url(../_images/layout/icon-twitter.gif); background-repeat: no-repeat; background-position: top left; display: block; float: right; position: relative; top:-29px; right: 25px; }
-	.community-landing .social a.icon-youtube {width:17px; height: 16px; background: url(../_images/layout/icon-youtube.gif); background-repeat: no-repeat; background-position: top left; display: block; float: right; position: relative; top:-29px; right: 45px; }
+	.community-landing .social a.icon-facebook {width:17px; height: 16px; background: url(../images/layout/icon-facebook.gif); background-repeat: no-repeat; background-position: top left; display: block; float: right; position: relative; top:-29px; right: 33px; }
+	.community-landing .social a.icon-twitter {width:17px; height: 16px; background: url(../images/layout/icon-twitter.gif); background-repeat: no-repeat; background-position: top left; display: block; float: right; position: relative; top:-29px; right: 25px; }
+	.community-landing .social a.icon-youtube {width:17px; height: 16px; background: url(../images/layout/icon-youtube.gif); background-repeat: no-repeat; background-position: top left; display: block; float: right; position: relative; top:-29px; right: 45px; }
 	.community-landing .social a:hover { background-position: bottom left;}
 	.community-landing .links {width: 980px;  clear: both;}
 
 	.community-landing .links .standardbox .middlebar .backgroundthree a {margin: 14px 0 0 13px;}
 	.community-landing .links .standardbox .middlebar .backgroundthree a:hover {opacity: 0.7;  filter:alpha(opacity=70);}
-	.community-landing .links .standardbox .middlebar .backgroundthree a.contests {width:300px; height: 135px; background: url(../_images/lang/en-us/communitycard-contests.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.insider {width:300px; height: 135px; background: url(../_images/lang/en-us/communitycard-insider.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.blizzcast {width:300px; height: 135px; background: url(../_images/lang/en-us/communitycard-blizzcast.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.conceptart {width:300px; height: 135px; background: url(../_images/lang/en-us/communitycard-conceptart.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.events {width:300px; height: 135px; background: url(../_images/lang/en-us/communitycard-events.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.youtube {width:300px; height: 135px; background: url(../_images/lang/en-us/communitycard-youtube.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree .box2 .inner-bg { margin: 14px 0 0 13px; width:300px; height: 135px; background: url(../_images/lang/en-us/communitycard-fanart.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree .box3 .inner-bg { margin: 14px 0 0 13px; width:300px; height: 135px; background: url(../_images/lang/en-us/communitycard-conceptart.jpg); display: block; }
+	.community-landing .links .standardbox .middlebar .backgroundthree a.contests {width:300px; height: 135px; background: url(../images/lang/en-us/communitycard-contests.jpg); display: block; }
+	.community-landing .links .standardbox .middlebar .backgroundthree a.insider {width:300px; height: 135px; background: url(../images/lang/en-us/communitycard-insider.jpg); display: block; }
+	.community-landing .links .standardbox .middlebar .backgroundthree a.blizzcast {width:300px; height: 135px; background: url(../images/lang/en-us/communitycard-blizzcast.jpg); display: block; }
+	.community-landing .links .standardbox .middlebar .backgroundthree a.conceptart {width:300px; height: 135px; background: url(../images/lang/en-us/communitycard-conceptart.jpg); display: block; }
+	.community-landing .links .standardbox .middlebar .backgroundthree a.events {width:300px; height: 135px; background: url(../images/lang/en-us/communitycard-events.jpg); display: block; }
+	.community-landing .links .standardbox .middlebar .backgroundthree a.youtube {width:300px; height: 135px; background: url(../images/lang/en-us/communitycard-youtube.jpg); display: block; }
+	.community-landing .links .standardbox .middlebar .backgroundthree .box2 .inner-bg { margin: 14px 0 0 13px; width:300px; height: 135px; background: url(../images/lang/en-us/communitycard-fanart.jpg); display: block; }
+	.community-landing .links .standardbox .middlebar .backgroundthree .box3 .inner-bg { margin: 14px 0 0 13px; width:300px; height: 135px; background: url(../images/lang/en-us/communitycard-conceptart.jpg); display: block; }
 	.community-landing .links .standardbox .middlebar .backgroundthree .inner-bg a { display:inline-block; height:18px; margin:106px 0 0 12px }
     .community-landing .links .standardbox .middlebar .backgroundthree .inner-bg a:hover { opacity: 0.1;  filter:alpha(opacity=10); }
 	.community-landing .links .standardbox .middlebar .backgroundthree .inner-bg .worldofwarcraft { width:131px }
     .community-landing .links .standardbox .middlebar .backgroundthree .inner-bg .starcraft { width:70px }
 	.community-landing .links .standardbox .middlebar .backgroundthree .inner-bg .diablo { width:46px }
-	.community-landing .links .standardbox .middlebar .backgroundthree .line {height: 166px; clear: both; background: url(../_images/layout/box-bg-one.gif)}
+	.community-landing .links .standardbox .middlebar .backgroundthree .line {height: 166px; clear: both; background: url(../images/layout/box-bg-one.gif)}
 	.community-landing .links .standardbox .middlebar .backgroundthree .line.bottomrow {height: 164px;}
 	.community-landing .links .standardbox .middlebar .backgroundthree .line .box1 {width: 327px; height: 165px; float: left;}
 	.community-landing .links .standardbox .middlebar .backgroundthree .line .box2 {width: 326px; height: 165px; float: left;}
@@ -326,34 +326,34 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 	.standardbox { }
 	.standardbox .description { font-size: 11px; clear: both; padding:11px 15px 15px 15px; color: #5d91a3; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 	.standardbox .topbar { height: 44px; width: 100%; }
-	.standardbox .topbar .leftcorner { width: 6px; height: 44px; background: url(../_images/layout/box-corner-topleft.png); float: left; }
-	.standardbox .topbar .rightcorner { width: 6px; height: 44px; background: url(../_images/layout/box-corner-topright.png); float: right; }
+	.standardbox .topbar .leftcorner { width: 6px; height: 44px; background: url(../images/layout/box-corner-topleft.png); float: left; }
+	.standardbox .topbar .rightcorner { width: 6px; height: 44px; background: url(../images/layout/box-corner-topright.png); float: right; }
 	.standardbox .topbar .title {padding: 0 0 0 21px; height: 44px; position:relative; top: 13px; }
 	.standardbox .topbar .title.recent { float:left; width:630px }
 	.standardbox .topbar .title.under-dev { float:left; }
 	.standardbox .topbar .title .longertextposition {position: absolute; width: 200px; height: 50px;}
-	.standardbox .topbar .middle { background: url(../_images/layout/box-top.jpg); margin: 0 6px 0 6px; }
-	.standardbox .topbar .middle .rightfade {height: 44px; width: 100px; background: url(../_images/layout/box-top-right.png); float: right;}
-	.standardbox .middlebar {background:url(../_images/layout/box-body-top.gif); background-color: #001821; background-repeat: repeat-x;}
-	.standardbox .middlebar.row {background-image:url(../_images/layout/box-body-mid.gif) }
-	.standardbox .middlebar .backgroundtwo {background: url(../_images/layout/box-bg-two.gif); background-position: top center; background-repeat: no-repeat;}
-	/*.standardbox .middlebar .backgroundthree {background: url(../_images/layout/box-bg-three.gif); background-position: top center; background-repeat: no-repeat;}*/
-	.standardbox .middlebar .backgroundthreelines {background: url(../_images/layout/box-bg-threelines.gif); background-position: top center; background-repeat: no-repeat; overflow:hidden;}
-	.standardbox .middlebar .backgroundfour {background: url(../_images/layout/box-bg-four.gif); background-position: top center; background-repeat: no-repeat;}
-	.standardbox .bottombar .middle { position:relative; height: 6px; background: url(../_images/layout/box-shadow-line.gif); background-repeat: repeat-x; margin: 0 6px 0 6px; }
-	.standardbox .bottombar .leftcorner {position:absolute;top:0;left:-6px;width: 6px; height: 6px; background: url(../_images/layout/box-corner-bottomleft.png);}
-	.standardbox .bottombar .rightcorner {position:absolute;top:0;right:-6px;width: 6px; height: 6px; background: url(../_images/layout/box-corner-bottomright.png); }
+	.standardbox .topbar .middle { background: url(../images/layout/box-top.jpg); margin: 0 6px 0 6px; }
+	.standardbox .topbar .middle .rightfade {height: 44px; width: 100px; background: url(../images/layout/box-top-right.png); float: right;}
+	.standardbox .middlebar {background:url(../images/layout/box-body-top.gif); background-color: #001821; background-repeat: repeat-x;}
+	.standardbox .middlebar.row {background-image:url(../images/layout/box-body-mid.gif) }
+	.standardbox .middlebar .backgroundtwo {background: url(../images/layout/box-bg-two.gif); background-position: top center; background-repeat: no-repeat;}
+	/*.standardbox .middlebar .backgroundthree {background: url(../images/layout/box-bg-three.gif); background-position: top center; background-repeat: no-repeat;}*/
+	.standardbox .middlebar .backgroundthreelines {background: url(../images/layout/box-bg-threelines.gif); background-position: top center; background-repeat: no-repeat; overflow:hidden;}
+	.standardbox .middlebar .backgroundfour {background: url(../images/layout/box-bg-four.gif); background-position: top center; background-repeat: no-repeat;}
+	.standardbox .bottombar .middle { position:relative; height: 6px; background: url(../images/layout/box-shadow-line.gif); background-repeat: repeat-x; margin: 0 6px 0 6px; }
+	.standardbox .bottombar .leftcorner {position:absolute;top:0;left:-6px;width: 6px; height: 6px; background: url(../images/layout/box-corner-bottomleft.png);}
+	.standardbox .bottombar .rightcorner {position:absolute;top:0;right:-6px;width: 6px; height: 6px; background: url(../images/layout/box-corner-bottomright.png); }
 
-	.standardbox .bottombar .middle .backgroundtwo {width: 100%; height: 6px; background: url(../_images/layout/box-bg-two.gif); background-position: bottom center; background-repeat: no-repeat;}
-	.standardbox .bottombar .middle .backgroundthree {width: 100%; height: 6px; background: url(../_images/layout/box-bg-three.gif); background-position: bottom center; background-repeat: no-repeat; }
-	.standardbox .bottombar .middle .backgroundthreelines {width: 100%; height: 6px; background: url(../_images/layout/box-bg-threelines.gif); background-position: bottom center; background-repeat: no-repeat; }
-	.standardbox .bottombar .middle .backgroundfour {width: 100%; height: 6px; background: url(../_images/layout/box-bg-four.gif); background-position: bottom center; background-repeat: no-repeat;}
+	.standardbox .bottombar .middle .backgroundtwo {width: 100%; height: 6px; background: url(../images/layout/box-bg-two.gif); background-position: bottom center; background-repeat: no-repeat;}
+	.standardbox .bottombar .middle .backgroundthree {width: 100%; height: 6px; background: url(../images/layout/box-bg-three.gif); background-position: bottom center; background-repeat: no-repeat; }
+	.standardbox .bottombar .middle .backgroundthreelines {width: 100%; height: 6px; background: url(../images/layout/box-bg-threelines.gif); background-position: bottom center; background-repeat: no-repeat; }
+	.standardbox .bottombar .middle .backgroundfour {width: 100%; height: 6px; background: url(../images/layout/box-bg-four.gif); background-position: bottom center; background-repeat: no-repeat;}
 	.standardbox .shadowbar {height: 25px; overflow: hidden;}
-	.standardbox .shadowbar .shadow { width: 800px; height: 25px; background: url(../_images/layout/box-shadow.png); margin: 0 auto; }
+	.standardbox .shadowbar .shadow { width: 800px; height: 25px; background: url(../images/layout/box-shadow.png); margin: 0 auto; }
 
 
 	.games-landing .allgames .standardbox .middlebar .backgroundthree {height: auto;}
-	.games-landing .allgames .standardbox .middlebar .backgroundthree .line {height: 166px; clear: both; background: url(../_images/layout/box-bg-one.gif)}
+	.games-landing .allgames .standardbox .middlebar .backgroundthree .line {height: 166px; clear: both; background: url(../images/layout/box-bg-one.gif)}
 	.games-landing .allgames .standardbox .middlebar .backgroundthree .line.bottomrow {height: 164px;}
 	.games-landing .allgames .standardbox .middlebar .backgroundthree .line .box1 {width: 327px; float: left;}
 	.games-landing .allgames .standardbox .middlebar .backgroundthree .line .box2 {width: 326px; float: left;}
@@ -362,30 +362,30 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 	.games-landing .allgames .standardbox .middlebar .backgroundthree a:hover {opacity: 0.7;  filter:alpha(opacity=70);}
 	
 	.gridcard-games {width:300px; height: 135px; display: block;}
-	.gridcard-games-sc1 {background: url(../_images/lang/en-us/gamecard-games-sc1.jpg);}
-	.gridcard-games-sc2 {background: url(../_images/lang/en-us/gamecard-games-sc2.jpg);}
-	.gridcard-games-cataclysm {background: url(../_images/lang/en-us/gamecard-games-cataclysm.jpg);}
-	.gridcard-games-war3 {background: url(../_images/lang/en-us/gamecard-games-war3.jpg);}
-	.gridcard-games-wow {background: url(../_images/lang/en-us/gamecard-games-wow.jpg);}
-	.gridcard-games-bc {background: url(../_images/lang/en-us/gamecard-games-bc.jpg);}
-	.gridcard-games-wrath {background: url(../_images/lang/en-us/gamecard-games-wrath.jpg);}
-	.gridcard-games-d2 {background: url(../_images/lang/en-us/gamecard-games-d2.jpg);}
-	.gridcard-games-legacy {background: url(../_images/lang/en-us/gamecard-games-legacy.jpg);}
-	.gridcard-games-d3 {background: url(../_images/lang/en-us/gamecard-games-d3.jpg);}
-	.gridcard-games-mists {background: url(../_images/lang/en-us/gamecard-games-mists.jpg);}
-	.gridcard-games-sc2-hots {background: url(../_images/lang/en-us/gamecard-games-hots.jpg);}
-	.gridcard-games-sc2-void {background: url(../_images/lang/en-us/gamecard-games-lotv.jpg);}
-	.gridcard-games-overwatch {background: url(../_images/lang/en-us/gamecard-games-overwatch.jpg);}
-	.gridcard-games-legion {background: url(../_images/lang/en-us/gamecard-games-legion.jpg);}
-	.gridcard-games-hearthstone {background: url(../_images/lang/en-us/gamecard-games-hearthstone.jpg);}
-	.gridcard-games-d3x1 {background: url(../_images/lang/en-us/gamecard-games-d3x1.jpg);}
-	.gridcard-games-d3console {background: url(../_images/lang/en-us/gamecard-games-d3console.jpg);}
-	.gridcard-games-heroes {background: url(../_images/lang/en-us/gamecard-games-heroes.jpg);}
-	.gridcard-games-warlords {background: url(../_images/lang/en-us/gamecard-games-warlords.jpg);}
-	.gridcard-games-explore-trailers {background: url(../_images/lang/en-us/gamecard-explore-trailers.jpg);}
-	.gridcard-games-explore-legacy {background: url(../_images/lang/en-us/gamecard-explore-legacy.jpg);}
-	.gridcard-games-explore-music {background: url(../_images/lang/en-us/gamecard-explore-music.jpg);}
-	.gridcard-games-explore-careers {background: url(../_images/lang/en-us/gamecard-explore-careers.jpg);}
+	.gridcard-games-sc1 {background: url(../images/lang/en-us/gamecard-games-sc1.jpg);}
+	.gridcard-games-sc2 {background: url(../images/lang/en-us/gamecard-games-sc2.jpg);}
+	.gridcard-games-cataclysm {background: url(../images/lang/en-us/gamecard-games-cataclysm.jpg);}
+	.gridcard-games-war3 {background: url(../images/lang/en-us/gamecard-games-war3.jpg);}
+	.gridcard-games-wow {background: url(../images/lang/en-us/gamecard-games-wow.jpg);}
+	.gridcard-games-bc {background: url(../images/lang/en-us/gamecard-games-bc.jpg);}
+	.gridcard-games-wrath {background: url(../images/lang/en-us/gamecard-games-wrath.jpg);}
+	.gridcard-games-d2 {background: url(../images/lang/en-us/gamecard-games-d2.jpg);}
+	.gridcard-games-legacy {background: url(../images/lang/en-us/gamecard-games-legacy.jpg);}
+	.gridcard-games-d3 {background: url(../images/lang/en-us/gamecard-games-d3.jpg);}
+	.gridcard-games-mists {background: url(../images/lang/en-us/gamecard-games-mists.jpg);}
+	.gridcard-games-sc2-hots {background: url(../images/lang/en-us/gamecard-games-hots.jpg);}
+	.gridcard-games-sc2-void {background: url(../images/lang/en-us/gamecard-games-lotv.jpg);}
+	.gridcard-games-overwatch {background: url(../images/lang/en-us/gamecard-games-overwatch.jpg);}
+	.gridcard-games-legion {background: url(../images/lang/en-us/gamecard-games-legion.jpg);}
+	.gridcard-games-hearthstone {background: url(../images/lang/en-us/gamecard-games-hearthstone.jpg);}
+	.gridcard-games-d3x1 {background: url(../images/lang/en-us/gamecard-games-d3x1.jpg);}
+	.gridcard-games-d3console {background: url(../images/lang/en-us/gamecard-games-d3console.jpg);}
+	.gridcard-games-heroes {background: url(../images/lang/en-us/gamecard-games-heroes.jpg);}
+	.gridcard-games-warlords {background: url(../images/lang/en-us/gamecard-games-warlords.jpg);}
+	.gridcard-games-explore-trailers {background: url(../images/lang/en-us/gamecard-explore-trailers.jpg);}
+	.gridcard-games-explore-legacy {background: url(../images/lang/en-us/gamecard-explore-legacy.jpg);}
+	.gridcard-games-explore-music {background: url(../images/lang/en-us/gamecard-explore-music.jpg);}
+	.gridcard-games-explore-careers {background: url(../images/lang/en-us/gamecard-explore-careers.jpg);}
 	
 	.games-landing .underdev .standardbox .middlebar {  }
 	.games-landing .underdev .standardbox .middlebar .line {clear: both;}
@@ -411,11 +411,11 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 
 	.subheader {width:100%;}
 	.subheader div .navsub {padding:15px 0 0 0;}
-	.subheader .games {background: url(../_images/subpages/games_top.jpg) no-repeat 50% 0; height:350px;}
-	.subheader .blizzcon {background: url(../_images/layout/header-blizzcon.jpg) no-repeat 50% 0; height:350px;}
-	.subheader .careers, .subheader div.jobsitesupport { background: url(../_images/subpages/header-career.jpg) no-repeat 50% 0; height: 350px;}
-	.subheader .company {background: url(../_images/subpages/header-nuke.jpg) no-repeat 50% 0; height:350px;}
-	.subheader .profile {background: url(../_images/subpages/header-9.jpg) no-repeat 50% 0; height: 350px;}
+	.subheader .games {background: url(../images/subpages/games_top.jpg) no-repeat 50% 0; height:350px;}
+	.subheader .blizzcon {background: url(../images/layout/header-blizzcon.jpg) no-repeat 50% 0; height:350px;}
+	.subheader .careers, .subheader div.jobsitesupport { background: url(../images/subpages/header-career.jpg) no-repeat 50% 0; height: 350px;}
+	.subheader .company {background: url(../images/subpages/header-nuke.jpg) no-repeat 50% 0; height:350px;}
+	.subheader .profile {background: url(../images/subpages/header-9.jpg) no-repeat 50% 0; height: 350px;}
 	.subheader .partners {background: url(http://eu.blizzard.com/static/_images/subpages/header-wow.jpg) no-repeat 50% 0; height: 350px;}
 	.subheader .community {background: url(http://eu.blizzard.com/static/_images/subpages/games_top.jpg) no-repeat 50% 0; min-height: 500px;}
 	.subheader .events {background: url(http://eu.blizzard.com/static/_images/subpages/header-11.jpg) no-repeat 50% 0; height: 350px;}
@@ -895,9 +895,9 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 
 /*
 .v_dl.mac .dl_size.mac, .v_dl.win .dl_size.win, .v_dl.emb .v_more   {  display:block;  }
-.v_dl .win { background:url(../_images/layout/dl_win.gif) no-repeat  0 0; }
-.v_dl .mac { background:url(../_images/layout/dl_mac.gif) no-repeat  0 0; }
-.v_dl .emb { background:url(../_images/layout/dl_emb.gif) no-repeat  0 0; }
+.v_dl .win { background:url(../images/layout/dl_win.gif) no-repeat  0 0; }
+.v_dl .mac { background:url(../images/layout/dl_mac.gif) no-repeat  0 0; }
+.v_dl .emb { background:url(../images/layout/dl_emb.gif) no-repeat  0 0; }
 .v_dl .dl_size { clear:left; padding:10px; font-size:15px;  display:none; margin-top:-1px }
 
 .v_more { clear:both; padding:5px; display:none; background:#041823; border:1px solid #103649 }
@@ -997,8 +997,8 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 .featured_list .ft_list_int q {padding-top:40px;}
 .featured_list .selected .ft_list_int {background:url(http://eu.blizzard.com/static/_images/subpages/contentslide-bg-selected.gif) 100% 0 no-repeat;}
 .featured_list .selected .cnt_date, .featured_list selected .ft_list_title, .featured_list a:hover .cnt_date, .featured_list a:hover .ft_list_title {color:#fff;}
-/*.featured_list .selected, .featured_list a:hover {background:url(../_images/layout/black50.png); color:white;}*/
-/*.featured_list a:hover .ft_list_int {background:url(../_images/layout/r_padd_arrow.gif) left bottom no-repeat;}*/
+/*.featured_list .selected, .featured_list a:hover {background:url(../images/layout/black50.png); color:white;}*/
+/*.featured_list a:hover .ft_list_int {background:url(../images/layout/r_padd_arrow.gif) left bottom no-repeat;}*/
 /*.featured_list .selected:hover .ft_list_int, .featured_list .selected .ft_list_int {border-left:5px solid white;}*/
 .contests_featured .featured_list .selected span {color:#fff !important;}
 
@@ -1031,9 +1031,9 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 .past_contests_list .contestswrap div {height:32px; line-height:32px; background:url(http://eu.blizzard.com/static/_images/frontpage/newscontentbgarchive.gif) 0 0 no-repeat;}
 .past_contests_list.archive {float:none; width:auto; margin-top:21px; font-size:16px;}
 .past_contests_list a { display:block; padding:0; line-height:14px; white-space:nowrap }
-/*.past_contests_list a:hover {background:url(../_images/layout/blue80.png);}*/
+/*.past_contests_list a:hover {background:url(../images/layout/blue80.png);}*/
 .past_contests_list a:hover .cnt_date {color:white;}
-/*.past_contests_list .zebra {background:url(../_images/layout/black50.png);}*/
+/*.past_contests_list .zebra {background:url(../images/layout/black50.png);}*/
 .past_contests_list .cnt_date {color:#366A80; font-size:11px; line-height:32px; background:url(http://eu.blizzard.com/static/_images/frontpage/newscontentbgarchive.gif) 100% 0 no-repeat; padding-right:7px;}
 .past_contests_list.archive .cnt_date { background:none; }
 .archive .cnt_desc {color:#82B8CB; font-weight:normal; font-size:12px; padding:0 0 15px 31px; }
@@ -1206,7 +1206,7 @@ ul.sectionlinks h3 {font:11px Arial; color:#266082; margin:0; padding:2px 0 0; d
 
 .columnlines {background:url(http://eu.blizzard.com/static/_images/subpages/bg-columnline.gif) 0 0 repeat;}
 
-p.lead {/*background:url(../_images/layout/bg-blockquote.jpg) #081923 0 0 no-repeat;*/ color:#00A2F1; font:22px/1.964 'Century Gothic', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Verdana, Arial, Helvetica, sans-serif; letter-spacing:-1px; margin:20px 0 1.964em; display:block; /*color:#77cff1;*/}
+p.lead {/*background:url(../images/layout/bg-blockquote.jpg) #081923 0 0 no-repeat;*/ color:#00A2F1; font:22px/1.964 'Century Gothic', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Verdana, Arial, Helvetica, sans-serif; letter-spacing:-1px; margin:20px 0 1.964em; display:block; /*color:#77cff1;*/}
 p.lead span {display:block; padding:.982em 0 0;}
 p.lead strong {font-size:28px; line-height:1.179;}
 p.lead sup {font-size:.5em;}
@@ -1324,14 +1324,14 @@ p.lead span.blizzconlogo {margin: 0 0 0 20px; padding:10px 0 0;}
 .page-midnightopenings #partner-futureshop{ width: 191px; height: 75px; background:url(http://eu.blizzard.com/static/_images/company/events/sc2midnightopenings/partner_futureshop.jpg) top left no-repeat; margin: 0px 0 0px 0px; float: left; cursor:pointer;}
 
 /* debugging with colors
-.page-midnightopenings #retailerlogo{ width: 300px; height: 50px; background: url(../_images/company/events/sc2midnightopenings/media-markt-logo.gif) top left no-repeat; margin: 0 0 20px 0; float: left; }
-.page-midnightopenings #partner-jinx{ width: 150px; height: 140px; background: url(../_images/company/events/sc2midnightopenings/partner_jinx.png) top left no-repeat; margin: 0 0 20px 0; float: left;  background-color:brown;}
-.page-midnightopenings #partner-steelseries{ width: 280px; height: 40px; background:url(../_images/company/events/sc2midnightopenings/partner_steelseries_white.png) top left no-repeat; margin: 0 0 20px 0; float: left;   background-color:blue;}
-.page-midnightopenings #partner-nvidia{ width: 180px; height: 140px; background:url(../_images/company/events/sc2midnightopenings/partner_nvidia.png) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:yellow;}
-.page-midnightopenings #partner-panini{ width: 175px; height: 50px; background:url(../_images/company/events/sc2midnightopenings/partner_panini.png) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:green;}
-.page-midnightopenings #partner-razer{ width: 230px; height: 70px; background:url(../_images/company/events/sc2midnightopenings/partner_razer.png) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:red;}
-.page-midnightopenings #partner-future{ width: 120px; height: 120px; background:url(../_images/company/events/sc2midnightopenings/partner_future.gif) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:purple;}
-.page-midnightopenings #partner-brady{ width: 100px; height: 75px; background:url(../_images/company/events/sc2midnightopenings/partner_brady.jpg) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:orange;}
+.page-midnightopenings #retailerlogo{ width: 300px; height: 50px; background: url(../images/company/events/sc2midnightopenings/media-markt-logo.gif) top left no-repeat; margin: 0 0 20px 0; float: left; }
+.page-midnightopenings #partner-jinx{ width: 150px; height: 140px; background: url(../images/company/events/sc2midnightopenings/partner_jinx.png) top left no-repeat; margin: 0 0 20px 0; float: left;  background-color:brown;}
+.page-midnightopenings #partner-steelseries{ width: 280px; height: 40px; background:url(../images/company/events/sc2midnightopenings/partner_steelseries_white.png) top left no-repeat; margin: 0 0 20px 0; float: left;   background-color:blue;}
+.page-midnightopenings #partner-nvidia{ width: 180px; height: 140px; background:url(../images/company/events/sc2midnightopenings/partner_nvidia.png) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:yellow;}
+.page-midnightopenings #partner-panini{ width: 175px; height: 50px; background:url(../images/company/events/sc2midnightopenings/partner_panini.png) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:green;}
+.page-midnightopenings #partner-razer{ width: 230px; height: 70px; background:url(../images/company/events/sc2midnightopenings/partner_razer.png) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:red;}
+.page-midnightopenings #partner-future{ width: 120px; height: 120px; background:url(../images/company/events/sc2midnightopenings/partner_future.gif) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:purple;}
+.page-midnightopenings #partner-brady{ width: 100px; height: 75px; background:url(../images/company/events/sc2midnightopenings/partner_brady.jpg) top left no-repeat; margin: 0 0 20px 0; float: left; background-color:orange;}
 */
 
 .page-midnightopenings .gmaplink1{ width: 250px; height: 30px; background: url(http://eu.blizzard.com/static/_images/company/events/sc2midnightopenings/gmaps_logo.gif) #134969 top right no-repeat; display: block; }
@@ -1481,12 +1481,12 @@ ul.sidebar-menu ul, .swipe-container {display: none;}
 .swipe-container .sidebar-menu ul {display: block; margin-top: 4px;  margin-left: 10px;}
 .swipe-container .sidebar-menu ul a { width: 165px;}
 /*
-ul.sidebar-menu a.has-submenu span { padding-right: 20px; display: block; background: url(../_images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat 155px 9px; }
-ul.sidebar-menu a.has-submenu:hover span { background: url(../_images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat 155px -41px; }
-ul.sidebar-menu a.back-to span { padding-left: 18px; display: block; background: url(../_images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat -3px -90px; }
-ul.sidebar-menu a.back-to:hover span { background: url(../_images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat -4px -140px; }
-ul.sidebar-menu a.disabled span { padding-right: 20px; display: block; background: url(../_images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat 155px -192px; }
-ul.sidebar-menu a.disabled:hover span { background: url(../_images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat 155px -192px; }
+ul.sidebar-menu a.has-submenu span { padding-right: 20px; display: block; background: url(../images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat 155px 9px; }
+ul.sidebar-menu a.has-submenu:hover span { background: url(../images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat 155px -41px; }
+ul.sidebar-menu a.back-to span { padding-left: 18px; display: block; background: url(../images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat -3px -90px; }
+ul.sidebar-menu a.back-to:hover span { background: url(../images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat -4px -140px; }
+ul.sidebar-menu a.disabled span { padding-right: 20px; display: block; background: url(../images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat 155px -192px; }
+ul.sidebar-menu a.disabled:hover span { background: url(../images/company/events/d3midnightopenings/sidebar-menu-arrows.png) no-repeat 155px -192px; }
 */
 
 /* Dynamic Menu */
@@ -1764,7 +1764,7 @@ ul.selector {margin:40px 0 0; padding:0;}
 ul.selector li {margin:0 4px 0 0; padding:0; display:inline; font:16px/1.35 'Century Gothic', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Verdana, Arial, Helvetica, sans-serif;}
 ul.selector a {padding:3px 6px; text-decoration:none; font-weight:normal;}
 ul.selector a:hover {background:#0a5f7f;}
-ul.selector span {padding:3px 6px; color:#77cff1; /*background:url(../_images/layout/bg-blockquote.jpg) #081923 50% 50% no-repeat;*/ font-weight:bold;}
+ul.selector span {padding:3px 6px; color:#77cff1; /*background:url(../images/layout/bg-blockquote.jpg) #081923 50% 50% no-repeat;*/ font-weight:bold;}
 
 .page-careers .lead {width:550px;}
 .page-careers .columns {}
@@ -1922,7 +1922,7 @@ ul.selector span {padding:3px 6px; color:#77cff1; /*background:url(../_images/la
 .page-university .internship-detail-box {background:url(http://eu.blizzard.com/static/_images/lang/en-us/internship-button-bg.png) no-repeat 0 0; width:322px; height:392px; float:right; margin:50px 0px 110px 40px }
 .page-university .internship-france-detail-box {background:url(http://eu.blizzard.com/static/_images/lang/en-gb/internship-france-button-bg.png) no-repeat 0 0; width:322px; height:392px; float:right; margin:50px 0px 110px 40px }
 .page-university .internship-ireland-detail-box {background:url(http://eu.blizzard.com/static/_images/lang/en-gb/internship-ireland-button-bg.png) no-repeat 0 0; width:322px; height:392px; float:right; margin:50px 0px 110px 40px }
-/*.page-university .internship-ireland-detail-box {background:url(../_images/lang/en-us/internship-button-bg.png) no-repeat 0 0; width:322px; height:230px; float:right; margin:50px 0px 110px 40px; background-position:0 -162px; }*/
+/*.page-university .internship-ireland-detail-box {background:url(../images/lang/en-us/internship-button-bg.png) no-repeat 0 0; width:322px; height:230px; float:right; margin:50px 0px 110px 40px; background-position:0 -162px; }*/
 .page-university .internship-ireland-detail-box .internship-detail-box-text { float: none; position:static; margin:177px 25px 0;}
 
 .page-university .internship-detail-box-text { font: normal 12px 'Arial','Helvetica','sans-serif'; line-height:20px; position:relative; top:-120px; left:640px; width:290px; margin: 0px 0xp 0px 0px; color: #82b8cb; text-transform: none; }
@@ -2056,7 +2056,7 @@ ul.selector span {padding:3px 6px; color:#77cff1; /*background:url(../_images/la
 .blankqs { padding: 0 0 300px 0;}
 
 .sitemap .subcontents .middle .wrapper .page-sitemap {padding:20px 20px 0;}
-.sitemap .sitemap_holder { overflow:hidden; width:900px; /*background:url(../_images/layout/bg-blockquote.jpg) 50% 0 no-repeat;*/ margin:40px auto 0;  }
+.sitemap .sitemap_holder { overflow:hidden; width:900px; /*background:url(../images/layout/bg-blockquote.jpg) 50% 0 no-repeat;*/ margin:40px auto 0;  }
 .sitemap .cat-top { width:274px; float:left; font:20px Arial, Helvetica, sans-serif; padding-left:25px;}
 .sitemap .primary {font:bold 26px/1.2 'Century Gothic', Arial, Helvetica, sans-serif; letter-spacing:-1px; color:#7ABAF2;}
 .sitemap .primary:hover, .sitemap .subcat .secondary a:hover, .sitemap .subcat .tertiary li a:hover {color:#fff;}
