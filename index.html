@@ -106,7 +106,7 @@
             <meta property="og:image" content="/static/images/company/about/awards/logo-dev.gif">
     </head>
 	<body class="wrath ">
-    <audio controls="" autoplay="" style="
+    <audio id="music_player" controls="" autoplay="" style="
         position: fixed;
         bottom: 0;
         right: 0;
@@ -117,6 +117,9 @@
           Your browser does not support the audio tag.
     </audio>
 	<div class="gamecontent-reposition ">
+    	<div class="navigation">
+    	   <div class="bg"></div>
+        </div>
 		<script type="text/javascript">
 		//<![CDATA[
 		$j("#shop-mainnav").bind("mouseenter", function(e) { $j("#shop-subnav").show(); });
@@ -218,19 +221,23 @@
     -webkit-text-fill-color: transparent;
 ">TRAILER</span>
 
-  <iframe width="400" height="225" src="https://www.youtube.com/embed/q6Bxwx9PWxA?rel=0&amp;showinfo=0&amp;cc_load_policy=1" frameborder="0" allowfullscreen="" style="margin-top: 10px;-moz-box-shadow: 0 0 5px #fff;-webkit-box-shadow: 0 0 5px #fff;box-shadow: 0px 0px 30px #579ab5;"></iframe>
+  <iframe class="youtubevideo" width="400" height="225" src="https://www.youtube.com/embed/q6Bxwx9PWxA?rel=0&amp;showinfo=0&amp;cc_load_policy=1" frameborder="0" allowfullscreen="" style="margin-top: 10px;-moz-box-shadow: 0 0 5px #fff;-webkit-box-shadow: 0 0 5px #fff;box-shadow: 0px 0px 30px #579ab5;"></iframe>
 
-<script>
-	var youtubeLink =
-			"yu1EE7GheD0"
-			"6kRtNqiIp88"
-	;
-	function videoSize() {
-		$j('#video_list', sV.content).remove();
-		$j('#screenViewer').css('height','497');
-		$j('#viewerContent').css('height','497');
-	}
-</script>
+  <script>
+    var youtubeplayers = document.getElementsByClassName('youtubevideo');
+
+    for (var i = 0; i < youtubeplayers.length; i++) {
+        youtubeplayers[i].addEventListener("onStateChange", function(e) {
+
+           if (e === 1) {
+               document.getElementById('music_player').pause();
+           } else {
+               document.getElementById('music_player').play();
+           };
+
+        });
+    }
+  </script>
 
 </div>
 <div class="features">
