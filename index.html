@@ -106,38 +106,17 @@
             <meta property="og:image" content="/static/images/company/about/awards/logo-dev.gif">
     </head>
 	<body class="wrath ">
-
-		<div id="languageChoice" style="display:none" lang="it-it">
-			<div class="position">
-				<a href="#" onclick="document.location ='indexd9f5.html?locale=it-it&amp;'" class="linkto-otherlanguage">
-					<div class="iconglobal"></div>
-					<p>
-							  Questo sito è visualizzabile in italiano<span>Visualizza questo sito in italiano</span>
-
-					</p>
-				</a>
-				<div class="closebar" lang="it-it">
-					<a href="indexd9f5.html?locale=it-it&amp;">
-						<div class="icon-close"></div>
-						Chiudi questa finestra e continua in italiano
-					</a>
-				</div>
-			</div>
-			<div style="clear:both;"></div>
-		</div>
-	<script language="javascript" src="./static/js/mini-ajax.js"></script>
-	<script language="javascript">
-        xmlDataRetrievalTarget = "../static/_flash/games/wrath_slides.xml";
-        targetDirectory = "../static/images/games/wrath/slides/";
-        loadData();
-        videoPlayerTheme = "sc2";
-    </script>
+    <audio controls="" autoplay="" style="
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 999;
+    ">
+          <source src="./static/music/background_music.ogg" type="audio/ogg">
+          <source src="./static/music/background_music.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+    </audio>
 	<div class="gamecontent-reposition ">
-	<form name="gs" method="get" onsubmit="return goSearch()">
-	<div class="navigation">
-		<div class="bg"></div>
-	</div>
-	</form>
 		<script type="text/javascript">
 		//<![CDATA[
 		$j("#shop-mainnav").bind("mouseenter", function(e) { $j("#shop-subnav").show(); });
@@ -155,8 +134,7 @@
 		});
 		//]]>
 		</script>
-
-		<div class="bg01">
+        <div class="bg01">
 				<div class="flash_box">
 					<div class="h_anim_position">
                         <video id="sampleMovie" width="543" height="345" preload="auto" loop="true" autoplay="true" style="margin: 143px 0 0 -29px;>
