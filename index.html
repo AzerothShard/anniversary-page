@@ -211,34 +211,17 @@
     width: 429px;
     text-align: center;
 ">
-  <span style="
-    color: #FFE50F;
-    font-family: fantasy;
-    /* margin-bottom: 10px; */
-    font-size: xx-large;
-    background: -webkit-linear-gradient(#de6011,#FFE50F, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-">TRAILER</span>
-
-  <iframe class="youtubevideo" width="400" height="225" src="https://www.youtube.com/embed/q6Bxwx9PWxA?rel=0&amp;showinfo=0&amp;cc_load_policy=1" frameborder="0" allowfullscreen="" style="margin-top: 10px;-moz-box-shadow: 0 0 5px #fff;-webkit-box-shadow: 0 0 5px #fff;box-shadow: 0px 0px 30px #579ab5;"></iframe>
-
-  <script>
-    var youtubeplayers = document.getElementsByClassName('youtubevideo');
-
-    for (var i = 0; i < youtubeplayers.length; i++) {
-        youtubeplayers[i].addEventListener("onStateChange", function(e) {
-
-           if (e === 1) {
-               document.getElementById('music_player').pause();
-           } else {
-               document.getElementById('music_player').play();
-           };
-
-        });
-    }
-  </script>
-
+  <span class="title_video" style="
+        color: #FFE50F;
+        font-family: fantasy;
+        /* margin-bottom: 10px; */
+        font-size: xx-large;
+        background: -webkit-linear-gradient(#de6011,#FFE50F, #000000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    ">TRAILER</span>
+    <div class="youtubevideo" id="youtubevideo-trailer"></div>
+    <!--<iframe class="youtubevideo" style="display: none;" width="400" height="225" src="https://www.youtube.com/embed/q6Bxwx9PWxA?enablejsapi=1&amp;rel=0&amp;showinfo=0&amp;cc_load_policy=1&amp;&amp" frameborder="0" allowfullscreen=""></iframe>-->
 </div>
 <div class="features">
 			<div class="bg"></div>
@@ -505,8 +488,37 @@ Collegati al nostro laboratory ed aiuta con i test e lo sviluppo
         featuresViewer(1);
 	</script>
 	//]]&gt;
+    <script>
+          // 1. This code loads the IFrame Player API code asynchronously.
+          var tag = document.createElement('script');
 
+          tag.src = "https://www.youtube.com/iframe_api";
+          var firstScriptTag = document.getElementsByTagName('script')[0];
+          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+          // 2. This function creates an <iframe> (and YouTube player)
+          //    after the API code downloads.
+          var player;
+          function onYouTubeIframeAPIReady() {
+                player = new YT.Player('youtubevideo-trailer', {
+                  height: '225',
+                  width: '400',
+                  videoId: 'q6Bxwx9PWxA',
+                  playerVars: {
+                      rel:0,
+                      showinfo:0,
+                      cc_load_policy:1
+                  },
+                  events: {
+                    'onStateChange': onPlayerStateChange
+                  }
+                });
+          }
+
+          function onPlayerStateChange(event) {
+              document.getElementById('music_player').pause();
+          }
+    </script>
 
 
 </body></html>
