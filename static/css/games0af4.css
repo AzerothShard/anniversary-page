@@ -1101,3 +1101,11 @@ body.d3 a,
 .d3 #viewerContent .age-gate-form a.button1 span span { padding: 0 25px 0 0; background-position:100% -123px }
 .d3 #viewerContent #invalid-birthday { color:#F00 }
 .d3 #viewerContent #content-unavailable { font: normal 16px "Palatino Linotype", "Times", serif; text-transform: uppercase; font-size: 18px; color: #D6C199; text-align:center; background-color:#000; cursor:default }
+
+
+@media (max-device-width: 680px) {
+    .h_anim_position {
+		display: none;
+		visibility: hidden;
+	}
+}

@@ -274,8 +274,8 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 	.b20-videos #video-transcripts .flashtextcontainer { margin-bottom:10px }
 	.b20-videos #video-transcripts .transcript-lists { font-size:12px; line-height:20px; padding:0 15px }
 	.b20-videos #video-transcripts .transcript-lists .active-span { border-bottom:1px dotted #CCC }
-	
-	
+
+
 	.community-landing .wow {float: left; width: 306px; }
 	.community-landing .wow .logoarea { width: 100%; background: url(../images/lang/en-us/community-logo-wow.jpg); background-position: top center; background-repeat: no-repeat;}
 	.community-landing .d3 {float: right; width: 306px; }
@@ -360,7 +360,7 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 	.games-landing .allgames .standardbox .middlebar .backgroundthree .line .box3 {width: 327px; float: left;}
 	.games-landing .allgames .standardbox .middlebar .backgroundthree a {margin: 14px 0 0 13px;}
 	.games-landing .allgames .standardbox .middlebar .backgroundthree a:hover {opacity: 0.7;  filter:alpha(opacity=70);}
-	
+
 	.gridcard-games {width:300px; height: 135px; display: block;}
 	.gridcard-games-sc1 {background: url(../images/lang/en-us/gamecard-games-sc1.jpg);}
 	.gridcard-games-sc2 {background: url(../images/lang/en-us/gamecard-games-sc2.jpg);}
@@ -386,7 +386,7 @@ a.button-blue-large em {display:block; font-size:18px; line-height:20px; font-st
 	.gridcard-games-explore-legacy {background: url(../images/lang/en-us/gamecard-explore-legacy.jpg);}
 	.gridcard-games-explore-music {background: url(../images/lang/en-us/gamecard-explore-music.jpg);}
 	.gridcard-games-explore-careers {background: url(../images/lang/en-us/gamecard-explore-careers.jpg);}
-	
+
 	.games-landing .underdev .standardbox .middlebar {  }
 	.games-landing .underdev .standardbox .middlebar .line {clear: both;}
 	.games-landing .underdev .standardbox .middlebar .line .description {padding-left:13px;}
@@ -2217,14 +2217,14 @@ ul.selector span {padding:3px 6px; color:#77cff1; /*background:url(../images/lay
 
 #cat-auction-faq { background:url(http://eu.blizzard.com/static/_images/company/events/d3announcement/faq-bg.jpg) 0 200px no-repeat; }
 
-.d3-announcement .gallerycontainer { margin-left:-240px } 
+.d3-announcement .gallerycontainer { margin-left:-240px }
 .d3-announcement .gallerycontainer h3 { font-size: 11px; margin:0; position:relative; top:8px }
 .d3-announcement ul{ list-style-type:none; margin:0; padding:10px 0 }
 .d3-announcement .menu #first{ border:none }
 .d3-announcement .menu li { float:left; border-left:1px solid #038cd1; padding:0 15px; line-height: 1em; font-family:Century Gothic; }
 .d3-announcement .menu li.view { color:#fff; }
 .d3-announcement .menu li.view a { color:#fff; }
-.d3-announcement .viewer li { display:none; } 
+.d3-announcement .viewer li { display:none; }
 .d3-announcement .viewer .view { display:block }
 
 .d3-announcement .main-banner { margin:0 auto 150px;  font-family:'Century Gothic', 'Arial','Helvetica','sans-serif'; }
