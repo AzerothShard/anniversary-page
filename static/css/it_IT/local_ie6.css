@@ -3,11 +3,11 @@
 
 /*	CSS Document - Blizzard Entertainment 2009  */
 
-.newsheader .latestnews { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://eu.blizzard.com/images/lang/it-it/frontpage/latestnews.png');}
+.newsheader .latestnews { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='https://eu.blizzard.com/images/lang/it-it/frontpage/latestnews.png');}
 
 .blizzart-gallery .gallery-filter {width:268px;}
 .blizzart-gallery .gallery-filter .contents{width:244px;}
 .blizzart-gallery .gallery-filter #sort_opt {width:266px;}
 
 /* Motion Overdrive */
-.overdrive-title { background-image:url(http://eu.blizzard.com/static/_images/games/motion-overdrive/header-title-it-it.gif); }
+.overdrive-title { background-image:url(https://eu.blizzard.com/static/_images/games/motion-overdrive/header-title-it-it.gif); }

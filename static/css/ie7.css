@@ -16,7 +16,7 @@ a {selector-dummy:expression(this.hideFocus=true)}
 .expansion { z-index:2001}
 .wrath .information, .burningcrusade .information {z-index:2000}
 
-#featured_link { background:url(http://eu.blizzard.com/static/_images/pixel.gif); }
+#featured_link { background:url(https://eu.blizzard.com/static/_images/pixel.gif); }
 
 .h1sub { margin-top:-4px; }
 .playerimg { margin-top:-35px; }

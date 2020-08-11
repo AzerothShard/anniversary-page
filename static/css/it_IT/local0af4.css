@@ -1,163 +1,471 @@
 @charset "utf-8";
 
-.newsheader .facebookicon a  { display:none; }
+.newsheader .facebookicon a {
+  display: none;
+}
 
-.newsheader .latestnews { background: url(http://eu.blizzard.com/static/_images/lang/it-it/frontpage/latestnews.png); }
-a.dl_btn:link, a.dl_btn:active, a.dl_btn:visited  {background-image:url(http://eu.blizzard.com/static/_images/blizzcast/it-IT/download_button.gif);}
+.newsheader .latestnews {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/frontpage/latestnews.png);
+}
+a.dl_btn:link,
+a.dl_btn:active,
+a.dl_btn:visited {
+  background-image: url(https://eu.blizzard.com/static/_images/blizzcast/it-IT/download_button.gif);
+}
 
 /* Menu navigation */
-	.navigation .bar a {background: url(http://eu.blizzard.com/static/_images/lang/it-it/nav-bar.gif);}
+.navigation .bar a {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/nav-bar.gif);
+}
 
 /* Landing pages styles */
 
-	.company-landing .links .standardbox .middlebar .backgroundfour a.about {width:217px; height: 186px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/company-about.jpg); display: block; }
-	.company-landing .links .standardbox .middlebar .backgroundfour a.careers {width:217px; height: 186px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/company-careers.jpg); display: block; }
-	.company-landing .links .standardbox .middlebar .backgroundfour a.events {width:217px; height: 186px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/company-events.jpg); display: block; }
-	.company-landing .links .standardbox .middlebar .backgroundfour a.press {width:217px; height: 186px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/company-press.jpg); display: block; }
+.company-landing .links .standardbox .middlebar .backgroundfour a.about {
+  width: 217px;
+  height: 186px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/company-about.jpg);
+  display: block;
+}
+.company-landing .links .standardbox .middlebar .backgroundfour a.careers {
+  width: 217px;
+  height: 186px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/company-careers.jpg);
+  display: block;
+}
+.company-landing .links .standardbox .middlebar .backgroundfour a.events {
+  width: 217px;
+  height: 186px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/company-events.jpg);
+  display: block;
+}
+.company-landing .links .standardbox .middlebar .backgroundfour a.press {
+  width: 217px;
+  height: 186px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/company-press.jpg);
+  display: block;
+}
 
-	.company-landing .buttons a.contactus { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/btn-contactus.gif); }
-	.community-landing .wow .logoarea { width: 100%; background: url(http://eu.blizzard.com/static/_images/lang/it-it/community-logo-wow.jpg); background-position: top center; background-repeat: no-repeat;}
-	.community-landing .d3 .logoarea { width: 100%; background: url(http://eu.blizzard.com/static/_images/lang/it-it/community-logo-d3.jpg); background-position: top center; background-repeat: no-repeat;}
-	.community-landing .sc2 .logoarea { margin: 0; width: 100%; background: url(http://eu.blizzard.com/static/_images/lang/it-it/community-logo-sc2.jpg); background-position: top center; background-repeat: no-repeat;}
-	.community-landing .buttons a.communitysites {background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/btn-communitysite.gif);}
-	.community-landing .buttons a.forums { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/btn-forums.gif); }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.contests {width:300px; height: 135px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/communitycard-contests.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.insider {width:300px; height: 135px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/communitycard-insider.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.blizzcast {width:300px; height: 135px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/communitycard-blizzcast.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.events {width:300px; height: 135px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/communitycard-events.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree a.youtube {width:300px; height: 135px; background: url(http://eu.blizzard.com/static/_images/lang/it-it/communitycard-youtube.jpg); display: block; }
-	.community-landing .links .standardbox .middlebar .backgroundthree .box2 .inner-bg { background: url(http://eu.blizzard.com/static/_images/lang/it-it/communitycard-fanart.jpg); }
-	.community-landing .links .standardbox .middlebar .backgroundthree .box3 .inner-bg { background: url(http://eu.blizzard.com/static/_images/lang/it-it/communitycard-conceptart.jpg); }
+.company-landing .buttons a.contactus {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/btn-contactus.gif);
+}
+.community-landing .wow .logoarea {
+  width: 100%;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/community-logo-wow.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.community-landing .d3 .logoarea {
+  width: 100%;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/community-logo-d3.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.community-landing .sc2 .logoarea {
+  margin: 0;
+  width: 100%;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/community-logo-sc2.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.community-landing .buttons a.communitysites {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/btn-communitysite.gif);
+}
+.community-landing .buttons a.forums {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/btn-forums.gif);
+}
+.community-landing .links .standardbox .middlebar .backgroundthree a.contests {
+  width: 300px;
+  height: 135px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/communitycard-contests.jpg);
+  display: block;
+}
+.community-landing .links .standardbox .middlebar .backgroundthree a.insider {
+  width: 300px;
+  height: 135px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/communitycard-insider.jpg);
+  display: block;
+}
+.community-landing .links .standardbox .middlebar .backgroundthree a.blizzcast {
+  width: 300px;
+  height: 135px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/communitycard-blizzcast.jpg);
+  display: block;
+}
+.community-landing .links .standardbox .middlebar .backgroundthree a.events {
+  width: 300px;
+  height: 135px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/communitycard-events.jpg);
+  display: block;
+}
+.community-landing .links .standardbox .middlebar .backgroundthree a.youtube {
+  width: 300px;
+  height: 135px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/communitycard-youtube.jpg);
+  display: block;
+}
+.community-landing
+  .links
+  .standardbox
+  .middlebar
+  .backgroundthree
+  .box2
+  .inner-bg {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/communitycard-fanart.jpg);
+}
+.community-landing
+  .links
+  .standardbox
+  .middlebar
+  .backgroundthree
+  .box3
+  .inner-bg {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/communitycard-conceptart.jpg);
+}
 
 /* Community Contest index page */
-	.featured_list .ft_list_title {line-height:1;}
-	.featured_list .ft_list_int q {padding-top:35px;}
+.featured_list .ft_list_title {
+  line-height: 1;
+}
+.featured_list .ft_list_int q {
+  padding-top: 35px;
+}
 
-	.gridcard-games-sc1 {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-sc1.jpg);}
-	.gridcard-games-sc2 {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-sc2.jpg);}
-	.gridcard-games-cataclysm {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-cataclysm.jpg);}
-	.gridcard-games-war3 {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-war3.jpg);}
-	.gridcard-games-wow {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-wow.jpg);}
-	.gridcard-games-bc {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-bc.jpg);}
-	.gridcard-games-wrath {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-wrath.jpg);}
-	.gridcard-games-d2 {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-d2.jpg);}
-	.gridcard-games-legacy {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-legacy.jpg);}
-	.gridcard-games-d3 {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-d3.jpg);}
-	.gridcard-games-mists {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-mists.jpg);}
-	.gridcard-games-sc2-hots {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-hots.jpg);}
-	.gridcard-games-sc2-void {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-lotv.jpg);}
-	.gridcard-games-overwatch {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-overwatch.jpg);}
-	.gridcard-games-legion {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-legion.jpg);}
-	.gridcard-games-hearthstone {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-hearthstone.jpg);}
-	.gridcard-games-d3x1 {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-d3x1.jpg);}
-	.gridcard-games-d3console {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-d3console.jpg);}
-	.gridcard-games-heroes {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-heroes.jpg);}
-	.gridcard-games-warlords {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-warlords.jpg);}
-	.gridcard-games-explore-trailers {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-explore-trailers.jpg);}
-	.gridcard-games-explore-legacy {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-explore-legacy.jpg);}
-	.gridcard-games-explore-music {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-explore-music.jpg);}
-	.gridcard-games-explore-careers {background: url(http://eu.blizzard.com/static/_images/lang/it-it/gamecard-explore-careers.jpg);}
-	
-	a.returntogames {width:234px; height:53px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/btn-returntogames.png) 0 0 no-repeat; display:block; margin:0 auto;}
+.gridcard-games-sc1 {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-sc1.jpg);
+}
+.gridcard-games-sc2 {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-sc2.jpg);
+}
+.gridcard-games-cataclysm {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-cataclysm.jpg);
+}
+.gridcard-games-war3 {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-war3.jpg);
+}
+.gridcard-games-wow {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-wow.jpg);
+}
+.gridcard-games-bc {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-bc.jpg);
+}
+.gridcard-games-wrath {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-wrath.jpg);
+}
+.gridcard-games-d2 {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-d2.jpg);
+}
+.gridcard-games-legacy {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-legacy.jpg);
+}
+.gridcard-games-d3 {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-d3.jpg);
+}
+.gridcard-games-mists {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-mists.jpg);
+}
+.gridcard-games-sc2-hots {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-hots.jpg);
+}
+.gridcard-games-sc2-void {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-lotv.jpg);
+}
+.gridcard-games-overwatch {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-overwatch.jpg);
+}
+.gridcard-games-legion {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-legion.jpg);
+}
+.gridcard-games-hearthstone {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-hearthstone.jpg);
+}
+.gridcard-games-d3x1 {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-d3x1.jpg);
+}
+.gridcard-games-d3console {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-d3console.jpg);
+}
+.gridcard-games-heroes {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-heroes.jpg);
+}
+.gridcard-games-warlords {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-games-warlords.jpg);
+}
+.gridcard-games-explore-trailers {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-explore-trailers.jpg);
+}
+.gridcard-games-explore-legacy {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-explore-legacy.jpg);
+}
+.gridcard-games-explore-music {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-explore-music.jpg);
+}
+.gridcard-games-explore-careers {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/gamecard-explore-careers.jpg);
+}
 
-	.page-press ul a.profile {background-image:url(http://eu.blizzard.com/static/_images/lang/it-it/presscard-pressreleases.jpg);}
-	.page-press ul a.mission {background-image:url(http://eu.blizzard.com/static/_images/lang/it-it/presscard-presskits.jpg);}
+a.returntogames {
+  width: 234px;
+  height: 53px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/btn-returntogames.png)
+    0 0 no-repeat;
+  display: block;
+  margin: 0 auto;
+}
 
-	.page-careers .jobs-only div a.jobsbtn {background:url(http://eu.blizzard.com/images/lang/it-it/button-searchjobs.png) 0 0 no-repeat;}
+.page-press ul a.profile {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/presscard-pressreleases.jpg);
+}
+.page-press ul a.mission {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/presscard-presskits.jpg);
+}
 
+.page-careers .jobs-only div a.jobsbtn {
+  background: url(https://eu.blizzard.com/images/lang/it-it/button-searchjobs.png)
+    0 0 no-repeat;
+}
 
-	.page-careers .column div a.internsbtn {width:234px; height:53px; background:url(http://eu.blizzard.com/static/_images/lang/it-it/btn-internships.png) 0 0 no-repeat; display:block; margin:0 0 0 0;}
+.page-careers .column div a.internsbtn {
+  width: 234px;
+  height: 53px;
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/btn-internships.png)
+    0 0 no-repeat;
+  display: block;
+  margin: 0 0 0 0;
+}
 
 /* Mission Statement */
 
-	.page-mission h3 {width:800px;}
-	.page-mission .lead {width:700px;}
+.page-mission h3 {
+  width: 800px;
+}
+.page-mission .lead {
+  width: 700px;
+}
 
-	.cv-gameplay h4 {font-size:31px; margin:30px 0 0 30px;}
-	.cv-gameplay h4 strong {font-size:57px; top:2px; left:-5px; display:block;}
+.cv-gameplay h4 {
+  font-size: 31px;
+  margin: 30px 0 0 30px;
+}
+.cv-gameplay h4 strong {
+  font-size: 57px;
+  top: 2px;
+  left: -5px;
+  display: block;
+}
 
-	.cv-quality h4 {font-size:43px; margin:28px 0 0 30px;}
-	.cv-quality h4 strong {font-size:54px; top:0; line-height:0.86;}
+.cv-quality h4 {
+  font-size: 43px;
+  margin: 28px 0 0 30px;
+}
+.cv-quality h4 strong {
+  font-size: 54px;
+  top: 0;
+  line-height: 0.86;
+}
 
-	.cv-playnice h4 {font-size:31px; line-height:42.9px; margin:30px 0 0 30px; width:auto;}
-	.cv-playnice h4 strong {font-size:42px; top:0px; left:-1px; display:block;}
-	ul li.cv-playnice div p {margin:25px 30px 0 30px;}
+.cv-playnice h4 {
+  font-size: 31px;
+  line-height: 42.9px;
+  margin: 30px 0 0 30px;
+  width: auto;
+}
+.cv-playnice h4 strong {
+  font-size: 42px;
+  top: 0px;
+  left: -1px;
+  display: block;
+}
+ul li.cv-playnice div p {
+  margin: 25px 30px 0 30px;
+}
 
-	.cv-innergeek h4 {font-size:41px; margin:30px 30px 0 0; text-align:right;}
-	.cv-innergeek h4 strong {font-size:69px; top:5px; display:block;}
+.cv-innergeek h4 {
+  font-size: 41px;
+  margin: 30px 30px 0 0;
+  text-align: right;
+}
+.cv-innergeek h4 strong {
+  font-size: 69px;
+  top: 5px;
+  display: block;
+}
 
-	.cv-voice h4 {font-size:47px; margin:30px 0 0 30px;}
-	.cv-voice h4 strong {font-size:68px; top:5px; left:-3px;}
-	.cv-voice h4 small {letter-spacing:-1px}
-	ul li.cv-voice div p {margin-top:25px;}
+.cv-voice h4 {
+  font-size: 47px;
+  margin: 30px 0 0 30px;
+}
+.cv-voice h4 strong {
+  font-size: 68px;
+  top: 5px;
+  left: -3px;
+}
+.cv-voice h4 small {
+  letter-spacing: -1px;
+}
+ul li.cv-voice div p {
+  margin-top: 25px;
+}
 
-	.cv-globally h4 {font-size:52px; line-height:.7; margin:50px 0 0 30px;}
-	.cv-globally h4 strong {font-size:28px;}
-	ul li.cv-globally div p {margin-top:30px;}
+.cv-globally h4 {
+  font-size: 52px;
+  line-height: 0.7;
+  margin: 50px 0 0 30px;
+}
+.cv-globally h4 strong {
+  font-size: 28px;
+}
+ul li.cv-globally div p {
+  margin-top: 30px;
+}
 
-	.cv-responsibly h4 {font-size:42px; line-height:.7; margin:40px 0 0 30px;}
-	.cv-responsibly h4 strong {font-size:28px;}
-	ul li.cv-responsibly div p {margin-top:30px;}
+.cv-responsibly h4 {
+  font-size: 42px;
+  line-height: 0.7;
+  margin: 40px 0 0 30px;
+}
+.cv-responsibly h4 strong {
+  font-size: 28px;
+}
+ul li.cv-responsibly div p {
+  margin-top: 30px;
+}
 
-	.cv-grow h4 {font-size:54px; margin:90px 0 0 30px;}
-	.cv-grow h4 strong {font-size:60px;}
-
+.cv-grow h4 {
+  font-size: 54px;
+  margin: 90px 0 0 30px;
+}
+.cv-grow h4 strong {
+  font-size: 60px;
+}
 
 /* Fan Art rules */
 
-	.btn-agree {background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/btn-agree.jpg);}
-	.btn-disagree {background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/btn-disagree.jpg);}
-
+.btn-agree {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/btn-agree.jpg);
+}
+.btn-disagree {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/btn-disagree.jpg);
+}
 
 /* Blizzcast */
 
-.bc_header div { width:390px; }
-
+.bc_header div {
+  width: 390px;
+}
 
 /* SC2 Purchase Buttons */
-.sc2 #purchase-buttons-all {display: block;}
-.sc2 #purchase-buttons-kr {display: none;}
-.sc2 #purchase-buttons-tw {display: none;}
+.sc2 #purchase-buttons-all {
+  display: block;
+}
+.sc2 #purchase-buttons-kr {
+  display: none;
+}
+.sc2 #purchase-buttons-tw {
+  display: none;
+}
 
 /* blizzard 20th anniversary */
-.b20-landing .b20-landing-bg { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/b20/landing-bg.jpg) }
-.b20-landing .b20-intro { background-image:url(http://eu.blizzard.com/static/_images/lang/it-it/b20/landing-title.jpg); background-position:4px 102px }
-.b20-videos #b20-video-holder { background-position: -750px -485px; }
-.b20-landing .b20-intro #logo-sparkles { right:-16px }
-.b20-landing .thumb-links a { background-image:url(http://eu.blizzard.com/static/_images/lang/it-it/b20/thumbs.jpg) }
-.b20-videos .b20-video-bg { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/b20/video-bg.jpg) }
-.b20-photo-gallery .b20-photo-gallery-bg { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/b20/photo-gallery-bg.jpg) }
-.b20-timeline .timeline-page.top { background: url('http://eu.blizzard.com/static/_images/lang/it-it/b20/bg-timeline.jpg') 50% 0px no-repeat #00060B;}
+.b20-landing .b20-landing-bg {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/b20/landing-bg.jpg);
+}
+.b20-landing .b20-intro {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/b20/landing-title.jpg);
+  background-position: 4px 102px;
+}
+.b20-videos #b20-video-holder {
+  background-position: -750px -485px;
+}
+.b20-landing .b20-intro #logo-sparkles {
+  right: -16px;
+}
+.b20-landing .thumb-links a {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/b20/thumbs.jpg);
+}
+.b20-videos .b20-video-bg {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/b20/video-bg.jpg);
+}
+.b20-photo-gallery .b20-photo-gallery-bg {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/b20/photo-gallery-bg.jpg);
+}
+.b20-timeline .timeline-page.top {
+  background: url("https://eu.blizzard.com/static/_images/lang/it-it/b20/bg-timeline.jpg")
+    50% 0px no-repeat #00060b;
+}
 .b20-contest .b20-contest-bg,
-.b20-photo-gallery .b20-photo-gallery-bg.sword-shield { background-image: url(http://eu.blizzard.com/static/_images/lang/it-it/b20/subpage-bg.jpg) }
-.b20-contest .buttonbasic div div a {font-size:21px;}
-.b20-videos .archive-wrapper { margin-left: 5px }
-.b20-interviews .b20-interviews.top { background: url(http://eu.blizzard.com/static/_images/lang/it-it/b20/bg-interviews.jpg) 50% 0 no-repeat #00060b;}
-.b20-interviews .b20-interviews-picmenu .menu.micah .name-interviewer {margin-top:80px;}
+.b20-photo-gallery .b20-photo-gallery-bg.sword-shield {
+  background-image: url(https://eu.blizzard.com/static/_images/lang/it-it/b20/subpage-bg.jpg);
+}
+.b20-contest .buttonbasic div div a {
+  font-size: 21px;
+}
+.b20-videos .archive-wrapper {
+  margin-left: 5px;
+}
+.b20-interviews .b20-interviews.top {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/b20/bg-interviews.jpg)
+    50% 0 no-repeat #00060b;
+}
+.b20-interviews .b20-interviews-picmenu .menu.micah .name-interviewer {
+  margin-top: 80px;
+}
 
 /* Motion Overdrive */
-.overdrive-title { background-image:url(http://eu.blizzard.com/static/_images/games/motion-overdrive/header-title-it-it.png); }
-
+.overdrive-title {
+  background-image: url(https://eu.blizzard.com/static/_images/games/motion-overdrive/header-title-it-it.png);
+}
 
 /* Music Section 
 .soundtrack-list #soundtrackList .music-title {width:340px;}
 .soundtrack-list #soundtrackList .track-note {width:91px;}
 .soundtrack-list #soundtrackList .music-title.long {width:461px;}
 .soundtrack-list #soundtrackList .play-time.long {width:128px;} */
-.track-list-header .track-note { height:31px; overflow:hidden; }
+.track-list-header .track-note {
+  height: 31px;
+  overflow: hidden;
+}
 
 /* Supply Depot */
-.supplydepot_header { background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/supplydepot/supplydepot-header.jpg) 50% 0 no-repeat; }
-.play-button-supplytdepot { background: url(http://eu.blizzard.com/static/_images/lang/it-it/games/supplydepot/play-btn.jpg) no-repeat; height:290px; width:533px; display:block;  }
-.play-button-supplytdepot:hover { background-position:0 100%; }
+.supplydepot_header {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/games/supplydepot/supplydepot-header.jpg)
+    50% 0 no-repeat;
+}
+.play-button-supplytdepot {
+  background: url(https://eu.blizzard.com/static/_images/lang/it-it/games/supplydepot/play-btn.jpg)
+    no-repeat;
+  height: 290px;
+  width: 533px;
+  display: block;
+}
+.play-button-supplytdepot:hover {
+  background-position: 0 100%;
+}
 
 /* Blizzard Kidzz */
-#blizzkidzz .wrapper .header { width: 687px; height: 137px; margin-top:60px; background: url('http://eu.blizzard.com/static/_images/games/blizzardkidzz/header-it-it.png') no-repeat center top; position:relative; z-index: 5;}
+#blizzkidzz .wrapper .header {
+  width: 687px;
+  height: 137px;
+  margin-top: 60px;
+  background: url("https://eu.blizzard.com/static/_images/games/blizzardkidzz/header-it-it.png")
+    no-repeat center top;
+  position: relative;
+  z-index: 5;
+}
 
 /* Mists of Padaria Launch page */
-.mop-launch .button-other-retailers { background-image: url(http://eu.blizzard.com/static/_images/company/events/mists-of-pandaria-launch/button-other-retailers-it-it.png) }
+.mop-launch .button-other-retailers {
+  background-image: url(https://eu.blizzard.com/static/_images/company/events/mists-of-pandaria-launch/button-other-retailers-it-it.png);
+}
 
 /* HotS launch event */
-.subheader .hots-launch { background: url("http://eu.blizzard.com/images/company/events/heart-of-the-swarm-launch/header-it-it.jpg") no-repeat center top #0c0116; height: 460px; min-width: 1024px; }
-.hots-launch .button-other-retailers { background-image: url(http://eu.blizzard.com/static/_images/company/events/heart-of-the-swarm-launch/button-other-retailers-it-it.png) }
-.hots-launch .watch-live .watch-live-button .watch-live-button-label { padding-top: 17px; }
+.subheader .hots-launch {
+  background: url("https://eu.blizzard.com/images/company/events/heart-of-the-swarm-launch/header-it-it.jpg")
+    no-repeat center top #0c0116;
+  height: 460px;
+  min-width: 1024px;
+}
+.hots-launch .button-other-retailers {
+  background-image: url(https://eu.blizzard.com/static/_images/company/events/heart-of-the-swarm-launch/button-other-retailers-it-it.png);
+}
+.hots-launch .watch-live .watch-live-button .watch-live-button-label {
+  padding-top: 17px;
+}

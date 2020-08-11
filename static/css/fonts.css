@@ -9,36 +9,52 @@
  * You may obtain a valid license at the URLs below.
  * 
  * Webfont: Museo Sans 700 by exljbris
- * URL: http://www.myfonts.com/fonts/exljbris/museo-sans/700/
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/700/
  * Licensed pageviews: Unlimited
  * 
  * Webfont: Museo Sans 300 by exljbris
- * URL: http://www.myfonts.com/fonts/exljbris/museo-sans/300/
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/300/
  * Licensed pageviews: Unlimited
  * 
  * Webfont: Museo Sans 500 by exljbris
- * URL: http://www.myfonts.com/fonts/exljbris/museo-sans/500/
+ * URL: https://www.myfonts.com/fonts/exljbris/museo-sans/500/
  * Licensed pageviews: 999,999,999
  * 
  * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2807888
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=2807888
  * Webfonts copyright: Copyright (c) 2008 by Jos Buivenga. All rights reserved.
  * 
  * © 2014 MyFonts Inc
 */
-  
-@font-face {font-family: 'MuseoSans-500';src: url('http://eu.blizzard.com/static/_fonts/museo-sans.eot');
-	src: url('http://eu.blizzard.com/static/_fonts/museo-sans.eot?#iefix') format('embedded-opentype'),
-	url('http://eu.blizzard.com/static/_fonts/museo-sans.woff') format('woff'),
-	url('http://eu.blizzard.com/static/_fonts/museo-sans.ttf') format('truetype');}
 
-@font-face {font-family: 'MuseoSans-300';src: url('http://eu.blizzard.com/static/_fonts/museo-sans-300.eot');
-	src: url('http://eu.blizzard.com/static/_fonts/museo-sans-300.eot?#iefix') format('embedded-opentype'),
-	url('http://eu.blizzard.com/static/_fonts/museo-sans-300.woff') format('woff'),
-	url('http://eu.blizzard.com/static/_fonts/museo-sans-300.ttf') format('truetype');}
+@font-face {
+  font-family: "MuseoSans-500";
+  src: url("https://eu.blizzard.com/static/_fonts/museo-sans.eot");
+  src: url("https://eu.blizzard.com/static/_fonts/museo-sans.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://eu.blizzard.com/static/_fonts/museo-sans.woff") format("woff"),
+    url("https://eu.blizzard.com/static/_fonts/museo-sans.ttf")
+      format("truetype");
+}
 
-@font-face {font-family: 'MuseoSans-700';src: url('http://eu.blizzard.com/static/_fonts/museo-sans-700.eot');
-	src: url('http://eu.blizzard.com/static/_fonts/museo-sans-700.eot?#iefix') format('embedded-opentype'),
-	url('http://eu.blizzard.com/static/_fonts/museo-sans-700.woff') format('woff'),
-	url('http://eu.blizzard.com/static/_fonts/museo-sans-700.ttf') format('truetype');}
-  
+@font-face {
+  font-family: "MuseoSans-300";
+  src: url("https://eu.blizzard.com/static/_fonts/museo-sans-300.eot");
+  src: url("https://eu.blizzard.com/static/_fonts/museo-sans-300.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://eu.blizzard.com/static/_fonts/museo-sans-300.woff")
+      format("woff"),
+    url("https://eu.blizzard.com/static/_fonts/museo-sans-300.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "MuseoSans-700";
+  src: url("https://eu.blizzard.com/static/_fonts/museo-sans-700.eot");
+  src: url("https://eu.blizzard.com/static/_fonts/museo-sans-700.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://eu.blizzard.com/static/_fonts/museo-sans-700.woff")
+      format("woff"),
+    url("https://eu.blizzard.com/static/_fonts/museo-sans-700.ttf")
+      format("truetype");
+}

@@ -22,7 +22,7 @@ function createElement(name, attrs, doc, xmlns) {
 	var doc = doc ? doc : document;
 	var elm;
 	if(doc.createElementNS)
-		elm = doc.createElementNS(xmlns ? xmlns : "http://www.w3.org/1999/xhtml", name);
+		elm = doc.createElementNS(xmlns ? xmlns : "https://www.w3.org/1999/xhtml", name);
 	else
 		elm = doc.createElement(name);
 	if(attrs)
@@ -506,8 +506,8 @@ function autostart(vid)
 
 function youtubelink(targ,vidval,qual){
 qual = qual||18
-var ytlink = "http://www.youtube.com/watch?v="+vidval+"&fmt="+qual;
-var ytembed = '<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/'+vidval+'&hl=en&fmt='+qual+'&hd=1&fs=1&color1=0x008aff&color2=0xb0c9de"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/'+vidval+'&hl=en&fmt='+qual+'&hd=1&fs=1&color1=0x008aff&color2=0xb0c9de" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>'
+var ytlink = "https://www.youtube.com/watch?v="+vidval+"&fmt="+qual;
+var ytembed = '<object width="480" height="385"><param name="movie" value="https://www.youtube.com/v/'+vidval+'&hl=en&fmt='+qual+'&hd=1&fs=1&color1=0x008aff&color2=0xb0c9de"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/'+vidval+'&hl=en&fmt='+qual+'&hd=1&fs=1&color1=0x008aff&color2=0xb0c9de" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>'
 
 var morehtml = embedtxt+': <input onclick="this.select()" value=\''+ytembed+'\'/>'
 var tdiv = (targ.parentNode.parentNode.id =="v_title")?targ.parentNode.parentNode:targ.parentNode;
@@ -716,13 +716,13 @@ function acceptTerms() {
 		surveyUrl = "";
 
 	if (lang == "en_gb"){
-		surveyUrl = "http://blizzard.gamescom-en.sgizmo.com/s3/"
+		surveyUrl = "https://blizzard.gamescom-en.sgizmo.com/s3/"
 	}
 	else if (lang == "de_de") {
-			surveyUrl = "http://blizzard.gamescom-de.sgizmo.com/s3/"
+			surveyUrl = "https://blizzard.gamescom-de.sgizmo.com/s3/"
 	}
 	else if (lang == "pl_pl") {
-			surveyUrl = "http://blizzard.gamescom-po.sgizmo.com/s3/"
+			surveyUrl = "https://blizzard.gamescom-po.sgizmo.com/s3/"
 	}
 
 	if(isTermsChecked) {
